@@ -63,7 +63,7 @@
 
 *Overrides void*
 
-*Defined in [packages/fclasses/src/Design.tsx:224](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/6728573a/packages/fclasses/src/Design.tsx#L224)*
+*Defined in [packages/fclasses/src/Design.tsx:233](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/18e3728d/packages/fclasses/src/Design.tsx#L233)*
 
 **Parameters:**
 
@@ -103,7 +103,7 @@ ___
 
 • **fixedProps**: *Object*
 
-*Defined in [packages/fclasses/src/Design.tsx:224](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/6728573a/packages/fclasses/src/Design.tsx#L224)*
+*Defined in [packages/fclasses/src/Design.tsx:233](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/18e3728d/packages/fclasses/src/Design.tsx#L233)*
 
 ___
 
@@ -486,7 +486,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/fclasses/src/Design.tsx:232](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/6728573a/packages/fclasses/src/Design.tsx#L232)*
+*Defined in [packages/fclasses/src/Design.tsx:241](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/18e3728d/packages/fclasses/src/Design.tsx#L241)*
 
 **Returns:** *Element‹›*
 

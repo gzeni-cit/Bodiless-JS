@@ -1,3 +1,4 @@
+* [@bodiless/navigation](/Development/API/@bodiless/navigation/globals)
 * [@bodiless/bv](/Development/API/@bodiless/bv/globals)
 * [@bodiless/card](/Development/API/@bodiless/card/globals)
 * [@bodiless/components](/Development/API/@bodiless/components/globals)
@@ -12,3 +13,4 @@
 * [@bodiless/search](/Development/API/@bodiless/search/globals)
 * [@bodiless/tokens](/Development/API/@bodiless/tokens/globals)
 * [@bodiless/ui](/Development/API/@bodiless/ui/globals)
+* [@bodiless/youtube](/Development/API/@bodiless/youtube/globals)
