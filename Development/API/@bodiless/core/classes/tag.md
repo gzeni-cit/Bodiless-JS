@@ -23,7 +23,7 @@
 
 \+ **new Tag**(`name`: string): *[Tag](tag.md)*
 
-*Defined in [packages/bodiless-core/src/components/ReactTagsField.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/18e3728d/packages/bodiless-core/src/components/ReactTagsField.tsx#L23)*
+*Defined in [packages/bodiless-core/src/components/ReactTagsField.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/a00e6012/packages/bodiless-core/src/components/ReactTagsField.tsx#L23)*
 
 **Parameters:**
 
@@ -39,7 +39,7 @@ Name | Type | Default |
 
 • **id**: *string* = v4()
 
-*Defined in [packages/bodiless-core/src/components/ReactTagsField.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/18e3728d/packages/bodiless-core/src/components/ReactTagsField.tsx#L21)*
+*Defined in [packages/bodiless-core/src/components/ReactTagsField.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/a00e6012/packages/bodiless-core/src/components/ReactTagsField.tsx#L21)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **name**: *string* = ""
 
-*Defined in [packages/bodiless-core/src/components/ReactTagsField.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/18e3728d/packages/bodiless-core/src/components/ReactTagsField.tsx#L23)*
+*Defined in [packages/bodiless-core/src/components/ReactTagsField.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/a00e6012/packages/bodiless-core/src/components/ReactTagsField.tsx#L23)*
