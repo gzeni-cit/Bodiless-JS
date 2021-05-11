@@ -16,7 +16,7 @@
 
 • **ComponentSelector**: = 1
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/a00e6012/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L20)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/3c89c625/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L20)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **EditFlowContainer**: = 2
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/a00e6012/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L21)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/3c89c625/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L21)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **StaticFlowContainer**: = 3
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/a00e6012/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L22)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/3c89c625/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L22)*
