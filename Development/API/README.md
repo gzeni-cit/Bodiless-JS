@@ -1,4 +1,5 @@
 * [@bodiless/navigation](/Development/API/@bodiless/navigation/globals)
+* [@bodiless/accordion](/Development/API/@bodiless/accordion/globals)
 * [@bodiless/bv](/Development/API/@bodiless/bv/globals)
 * [@bodiless/card](/Development/API/@bodiless/card/globals)
 * [@bodiless/carousel](/Development/API/@bodiless/carousel/globals)
