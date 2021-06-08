@@ -4,6 +4,7 @@
 * [@bodiless/card](/Development/API/@bodiless/card/globals)
 * [@bodiless/carousel](/Development/API/@bodiless/carousel/globals)
 * [@bodiless/components](/Development/API/@bodiless/components/globals)
+* [@bodiless/components-ui](/Development/API/@bodiless/components-ui/globals)
 * [@bodiless/core](/Development/API/@bodiless/core/globals)
 * [@bodiless/core-ui](/Development/API/@bodiless/core-ui/globals)
 * [@bodiless/fclasses](/Development/API/@bodiless/fclasses/globals)
