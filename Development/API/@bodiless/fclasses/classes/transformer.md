@@ -63,7 +63,7 @@
 
 *Overrides void*
 
-*Defined in [packages/fclasses/src/Design.tsx:269](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/fclasses/src/Design.tsx#L269)*
+*Defined in [packages/fclasses/src/Design.tsx:269](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/fclasses/src/Design.tsx#L269)*
 
 **Parameters:**
 
@@ -81,7 +81,7 @@ Name | Type |
 
 *Inherited from [Transformer](transformer.md).[context](transformer.md#context)*
 
-Defined in node_modules/@types/react/index.d.ts:476
+Defined in node_modules/@types/react/index.d.ts:472
 
 If using the new style context, re-declare this in your class to be the
 `React.ContextType` of your `static contextType`.
@@ -103,7 +103,7 @@ ___
 
 • **fixedProps**: *Object*
 
-*Defined in [packages/fclasses/src/Design.tsx:269](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/fclasses/src/Design.tsx#L269)*
+*Defined in [packages/fclasses/src/Design.tsx:269](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/fclasses/src/Design.tsx#L269)*
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[props](transformer.md#readonly-props)*
 
-Defined in node_modules/@types/react/index.d.ts:501
+Defined in node_modules/@types/react/index.d.ts:497
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[refs](transformer.md#refs)*
 
-Defined in node_modules/@types/react/index.d.ts:507
+Defined in node_modules/@types/react/index.d.ts:503
 
 **`deprecated`** 
 https://reactjs.org/docs/refs-and-the-dom.html#legacy-api-string-refs
@@ -140,17 +140,17 @@ ___
 
 *Inherited from [Transformer](transformer.md).[state](transformer.md#state)*
 
-Defined in node_modules/@types/react/index.d.ts:502
+Defined in node_modules/@types/react/index.d.ts:498
 
 ___
 
 ### `Static` `Optional` contextType
 
-▪ **contextType**? : *Context‹any›*
+▪ **contextType**? : *Context‹any› | undefined*
 
 *Inherited from [Transformer](transformer.md).[contextType](transformer.md#static-optional-contexttype)*
 
-Defined in node_modules/@types/react/index.d.ts:458
+Defined in node_modules/@types/react/index.d.ts:454
 
 If set, `this.context` will be set at runtime to the current value of the given Context.
 
@@ -179,7 +179,7 @@ class Foo extends React.Component {
 
 *Inherited from [Transformer](transformer.md).[UNSAFE_componentWillMount](transformer.md#optional-unsafe_componentwillmount)*
 
-Defined in node_modules/@types/react/index.d.ts:712
+Defined in node_modules/@types/react/index.d.ts:708
 
 Called immediately before mounting occurs, and before `Component#render`.
 Avoid introducing any side-effects or subscriptions in this method.
@@ -205,7 +205,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[UNSAFE_componentWillReceiveProps](transformer.md#optional-unsafe_componentwillreceiveprops)*
 
-Defined in node_modules/@types/react/index.d.ts:744
+Defined in node_modules/@types/react/index.d.ts:740
 
 Called when the component may be receiving new props.
 React may call this even if props have not changed, so be sure to compare new and existing
@@ -241,7 +241,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[UNSAFE_componentWillUpdate](transformer.md#optional-unsafe_componentwillupdate)*
 
-Defined in node_modules/@types/react/index.d.ts:772
+Defined in node_modules/@types/react/index.d.ts:768
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
@@ -276,7 +276,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[componentDidCatch](transformer.md#optional-componentdidcatch)*
 
-Defined in node_modules/@types/react/index.d.ts:641
+Defined in node_modules/@types/react/index.d.ts:637
 
 Catches exceptions generated in descendant components. Unhandled exceptions will cause
 the entire component tree to unmount.
@@ -298,7 +298,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[componentDidMount](transformer.md#optional-componentdidmount)*
 
-Defined in node_modules/@types/react/index.d.ts:620
+Defined in node_modules/@types/react/index.d.ts:616
 
 Called immediately after a component is mounted. Setting state here will trigger re-rendering.
 
@@ -312,7 +312,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[componentDidUpdate](transformer.md#optional-componentdidupdate)*
 
-Defined in node_modules/@types/react/index.d.ts:683
+Defined in node_modules/@types/react/index.d.ts:679
 
 Called immediately after updating occurs. Not called for the initial render.
 
@@ -336,7 +336,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[componentWillMount](transformer.md#optional-componentwillmount)*
 
-Defined in node_modules/@types/react/index.d.ts:698
+Defined in node_modules/@types/react/index.d.ts:694
 
 Called immediately before mounting occurs, and before `Component#render`.
 Avoid introducing any side-effects or subscriptions in this method.
@@ -360,7 +360,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[componentWillReceiveProps](transformer.md#optional-componentwillreceiveprops)*
 
-Defined in node_modules/@types/react/index.d.ts:727
+Defined in node_modules/@types/react/index.d.ts:723
 
 Called when the component may be receiving new props.
 React may call this even if props have not changed, so be sure to compare new and existing
@@ -394,7 +394,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[componentWillUnmount](transformer.md#optional-componentwillunmount)*
 
-Defined in node_modules/@types/react/index.d.ts:636
+Defined in node_modules/@types/react/index.d.ts:632
 
 Called immediately before a component is destroyed. Perform any necessary cleanup in this method, such as
 cancelled network requests, or cleaning up any DOM elements created in `componentDidMount`.
@@ -409,7 +409,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[componentWillUpdate](transformer.md#optional-componentwillupdate)*
 
-Defined in node_modules/@types/react/index.d.ts:757
+Defined in node_modules/@types/react/index.d.ts:753
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
@@ -442,7 +442,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[forceUpdate](transformer.md#forceupdate)*
 
-Defined in node_modules/@types/react/index.d.ts:493
+Defined in node_modules/@types/react/index.d.ts:489
 
 **Parameters:**
 
@@ -460,7 +460,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[getSnapshotBeforeUpdate](transformer.md#optional-getsnapshotbeforeupdate)*
 
-Defined in node_modules/@types/react/index.d.ts:677
+Defined in node_modules/@types/react/index.d.ts:673
 
 Runs before React applies the result of `render` to the document, and
 returns an object to be given to componentDidUpdate. Useful for saving
@@ -486,7 +486,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/fclasses/src/Design.tsx:277](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/fclasses/src/Design.tsx#L277)*
+*Defined in [packages/fclasses/src/Design.tsx:277](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/fclasses/src/Design.tsx#L277)*
 
 **Returns:** *Element‹›*
 
@@ -498,7 +498,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[setState](transformer.md#setstate)*
 
-Defined in node_modules/@types/react/index.d.ts:488
+Defined in node_modules/@types/react/index.d.ts:484
 
 **Type parameters:**
 
@@ -521,7 +521,7 @@ ___
 
 *Inherited from [Transformer](transformer.md).[shouldComponentUpdate](transformer.md#optional-shouldcomponentupdate)*
 
-Defined in node_modules/@types/react/index.d.ts:631
+Defined in node_modules/@types/react/index.d.ts:627
 
 Called to determine whether the change in props and state should trigger a re-render.
 

@@ -13,6 +13,7 @@
 * [Image](globals.md#const-image)
 * [Input](globals.md#const-input)
 * [MasterWrapper](globals.md#const-masterwrapper)
+* [UPLOAD_STATUS_MAX_FILENAME_LENGTH](globals.md#const-upload_status_max_filename_length)
 * [Wrapper](globals.md#const-wrapper)
 
 ### Functions
@@ -25,6 +26,7 @@
 * [Uploading](globals.md#const-uploading)
 * [asBodilessImage](globals.md#const-asbodilessimage)
 * [asBodilessLink](globals.md#const-asbodilesslink)
+* [truncateFileName](globals.md#const-truncatefilename)
 * [withForwardedRef](globals.md#const-withforwardedref)
 * [withForwardedRefEnd](globals.md#const-withforwardedrefend)
 * [withForwardedRefStart](globals.md#const-withforwardedrefstart)
@@ -40,7 +42,7 @@
 
 Ƭ **UI**: *object*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:111](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L111)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:128](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L128)*
 
 #### Type declaration:
 
@@ -52,7 +54,7 @@
 
 • **Image**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = asBodilessImage()(Img)
 
-*Defined in [packages/bodiless-components-ui/src/Image.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/Image.tsx#L30)*
+*Defined in [packages/bodiless-components-ui/src/Image.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/Image.tsx#L30)*
 
 ___
 
@@ -60,7 +62,7 @@ ___
 
 • **Input**: *any* = withForwardedRef()('input')
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:64](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L64)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:64](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L64)*
 
 ___
 
@@ -68,7 +70,15 @@ ___
 
 • **MasterWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = addClasses('bl-container')(Section)
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L53)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L53)*
+
+___
+
+### `Const` UPLOAD_STATUS_MAX_FILENAME_LENGTH
+
+• **UPLOAD_STATUS_MAX_FILENAME_LENGTH**: *30* = 30
+
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:96](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L96)*
 
 ___
 
@@ -83,7 +93,7 @@ ___
   ),
 )('div')
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L55)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L55)*
 
 ## Functions
 
@@ -91,7 +101,7 @@ ___
 
 ▸ **DragRejected**(): *Element‹›*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:72](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L72)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:72](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L72)*
 
 **Returns:** *Element‹›*
 
@@ -101,7 +111,7 @@ ___
 
 ▸ **UploadArea**(): *Element‹›*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L66)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L66)*
 
 **Returns:** *Element‹›*
 
@@ -111,7 +121,7 @@ ___
 
 ▸ **UploadFinished**(): *Element‹›*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L79)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L79)*
 
 **Returns:** *Element‹›*
 
@@ -121,7 +131,7 @@ ___
 
 ▸ **UploadStatus**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:82](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L82)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:98](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L98)*
 
 **Parameters:**
 
@@ -140,7 +150,7 @@ ___
 
 ▸ **UploadTimeout**(): *Element‹›*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:75](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L75)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:75](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L75)*
 
 **Returns:** *Element‹›*
 
@@ -150,7 +160,7 @@ ___
 
 ▸ **Uploading**(): *Element‹›*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L78)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L78)*
 
 **Returns:** *Element‹›*
 
@@ -160,7 +170,7 @@ ___
 
 ▸ **asBodilessImage**(`nodeKey`: undefined | string | object, `defaultData`: undefined | object, `useOverrides`: undefined | function): *function*
 
-*Defined in [packages/bodiless-components-ui/src/Image.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/Image.tsx#L24)*
+*Defined in [packages/bodiless-components-ui/src/Image.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/Image.tsx#L24)*
 
 **Parameters:**
 
@@ -186,7 +196,7 @@ ___
 
 ▸ **asBodilessLink**(`nodeKey`: undefined | string | object, `defaultData`: undefined | object, `useOverrides`: undefined | function): *function*
 
-*Defined in [packages/bodiless-components-ui/src/Link.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/Link.tsx#L28)*
+*Defined in [packages/bodiless-components-ui/src/Link.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/Link.tsx#L28)*
 
 **Parameters:**
 
@@ -208,11 +218,28 @@ Name | Type |
 
 ___
 
+### `Const` truncateFileName
+
+▸ **truncateFileName**(`file`: string, `length`: number): *string*
+
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:83](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L83)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`file` | string |
+`length` | number |
+
+**Returns:** *string*
+
+___
+
 ### `Const` withForwardedRef
 
 ▸ **withForwardedRef**(...`hocs`: HOC[]): *function*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L47)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L47)*
 
 **Parameters:**
 
@@ -236,7 +263,7 @@ ___
 
 ▸ **withForwardedRefEnd**(`Component`: ComponentType‹any›): *WithForwardedRefEnd*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L37)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L37)*
 
 **Parameters:**
 
@@ -252,7 +279,7 @@ ___
 
 ▸ **withForwardedRefStart**(`Component`: ComponentType‹any›): *ForwardRefExoticComponent‹RefAttributes‹unknown››*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L29)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L29)*
 
 **Parameters:**
 
@@ -268,7 +295,7 @@ ___
 
 ▸ **withUI**‹**P**›(`ui`: [UI](globals.md#ui)): *(Anonymous function)*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:112](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L112)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:129](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L129)*
 
 **Type parameters:**
 
@@ -288,62 +315,62 @@ Name | Type |
 
 ### ▪ **fileUploadUI**: *object*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L99)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L116)*
 
-*Defined in [packages/bodiless-components-ui/src/Link.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/Link.tsx#L23)*
+*Defined in [packages/bodiless-components-ui/src/Link.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/Link.tsx#L23)*
 
 ###  DragRejected
 
 • **DragRejected**: *[DragRejected](globals.md#const-dragrejected)*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L105)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:122](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L122)*
 
 ###  Input
 
 • **Input**: *any*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:102](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L102)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:119](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L119)*
 
 ###  MasterWrapper
 
 • **MasterWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = addClasses('bl-max-w-xl-grid-1')(baseFileUploadUi.MasterWrapper)
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:100](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L100)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:117](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L117)*
 
-*Defined in [packages/bodiless-components-ui/src/Link.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/Link.tsx#L25)*
+*Defined in [packages/bodiless-components-ui/src/Link.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/Link.tsx#L25)*
 
 ###  UploadArea
 
 • **UploadArea**: *[UploadArea](globals.md#const-uploadarea)*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:103](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L103)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:120](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L120)*
 
 ###  UploadFinished
 
 • **UploadFinished**: *[UploadFinished](globals.md#const-uploadfinished)*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:107](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L107)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:124](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L124)*
 
 ###  UploadStatus
 
 • **UploadStatus**: *[UploadStatus](globals.md#const-uploadstatus)*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:108](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L108)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:125](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L125)*
 
 ###  UploadTimeout
 
 • **UploadTimeout**: *[UploadTimeout](globals.md#const-uploadtimeout)*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:106](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L106)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:123](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L123)*
 
 ###  Uploading
 
 • **Uploading**: *[Uploading](globals.md#const-uploading)*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:104](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L104)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:121](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L121)*
 
 ###  Wrapper
 
 • **Wrapper**: *any*
 
-*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:101](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-components-ui/src/FileUpload.tsx#L101)*
+*Defined in [packages/bodiless-components-ui/src/FileUpload.tsx:118](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-components-ui/src/FileUpload.tsx#L118)*

@@ -27,8 +27,13 @@
 * [CleanBreadcrumbItemType](globals.md#cleanbreadcrumbitemtype)
 * [CleanBreadcrumbsProps](globals.md#cleanbreadcrumbsprops)
 * [LDItemType](globals.md#lditemtype)
+* [MenuContextType](globals.md#menucontexttype)
 * [MenuTitleComponents](globals.md#menutitlecomponents)
 * [MenuTitleProps](globals.md#menutitleprops)
+* [SubmenuContextType](globals.md#submenucontexttype)
+* [SubmenuIndicatorComponents](globals.md#submenuindicatorcomponents)
+* [SubmenuIndicatorProps](globals.md#submenuindicatorprops)
+* [SubmenuProviderType](globals.md#submenuprovidertype)
 * [TogglerComponents](globals.md#togglercomponents)
 * [TogglerProps](globals.md#togglerprops)
 
@@ -41,12 +46,20 @@
 * [BurgerMenuContext](globals.md#const-burgermenucontext)
 * [BurgerMenuDefaultToggler](globals.md#const-burgermenudefaulttoggler)
 * [BurgerMenuTogglerClean](globals.md#const-burgermenutogglerclean)
+* [ClickOutside](globals.md#const-clickoutside)
 * [DEFAULT_URL_BASE](globals.md#const-default_url_base)
+* [FocusOnEsc](globals.md#const-focusonesc)
 * [ItemNodeProvider](globals.md#const-itemnodeprovider)
 * [MenuBreadcrumbs](globals.md#const-menubreadcrumbs)
+* [MenuContext](globals.md#const-menucontext)
 * [MenuTitle](globals.md#const-menutitle)
+* [SubmenuContext](globals.md#const-submenucontext)
+* [SubmenuIndicator](globals.md#const-submenuindicator)
+* [SubmenuIndicatorClean](globals.md#const-submenuindicatorclean)
 * [asAbsolute](globals.md#const-asabsolute)
 * [asAccessibleBreadcrumbs](globals.md#const-asaccessiblebreadcrumbs)
+* [asAccessibleMenu](globals.md#const-asaccessiblemenu)
+* [asAccessibleSubMenu](globals.md#const-asaccessiblesubmenu)
 * [asBreadcrumbs](globals.md#const-asbreadcrumbs)
 * [asDisabled](globals.md#const-asdisabled)
 * [asFixed](globals.md#const-asfixed)
@@ -60,15 +73,17 @@
 * [asOverflowHidden](globals.md#const-asoverflowhidden)
 * [asPositionedLeft](globals.md#const-aspositionedleft)
 * [asRelative](globals.md#const-asrelative)
-* [asRelativeNotActive](globals.md#const-asrelativenotactive)
 * [asResponsiveSublist](globals.md#const-asresponsivesublist)
 * [asSlideLeft](globals.md#const-asslideleft)
 * [asStaticOnHover](globals.md#const-asstaticonhover)
 * [asStylableBreadcrumbs](globals.md#const-asstylablebreadcrumbs)
 * [asVerticalSubMenu](globals.md#const-asverticalsubmenu)
-* [asVisibleOnActive](globals.md#const-asvisibleonactive)
 * [breadcrumbContext](globals.md#const-breadcrumbcontext)
 * [depthDesignPathOptions](globals.md#const-depthdesignpathoptions)
+* [withAccessibleMenuAttr](globals.md#const-withaccessiblemenuattr)
+* [withAccessibleMenuInteractions](globals.md#const-withaccessiblemenuinteractions)
+* [withAccessibleSubMenuAttr](globals.md#const-withaccessiblesubmenuattr)
+* [withAccessibleSubmenuItem](globals.md#const-withaccessiblesubmenuitem)
 * [withBaseMenuStyles](globals.md#const-withbasemenustyles)
 * [withBaseSubMenuStyles](globals.md#const-withbasesubmenustyles)
 * [withBurgerMenuSchema](globals.md#const-withburgermenuschema)
@@ -88,12 +103,14 @@
 * [withHoverStyles](globals.md#const-withhoverstyles)
 * [withLightGrayBg](globals.md#const-withlightgraybg)
 * [withMaterialIconsFont](globals.md#const-withmaterialiconsfont)
+* [withMenuNav](globals.md#const-withmenunav)
 * [withNoInsetStyles](globals.md#const-withnoinsetstyles)
 * [withPointerCursorStyles](globals.md#const-withpointercursorstyles)
 * [withSlideInOutAnimation](globals.md#const-withslideinoutanimation)
 * [withSlideInTranslateStyles](globals.md#const-withslideintranslatestyles)
 * [withStartingTrail](globals.md#const-withstartingtrail)
 * [withStaticOnHoverStyles](globals.md#const-withstaticonhoverstyles)
+* [withSubmenuIndicator](globals.md#const-withsubmenuindicator)
 * [withTransformStyles](globals.md#const-withtransformstyles)
 * [withVisibleOnHoverStyles](globals.md#const-withvisibleonhoverstyles)
 * [withoutFinalTrail](globals.md#const-withoutfinaltrail)
@@ -101,11 +118,17 @@
 
 ### Functions
 
+* [AccessibleMenuItem](globals.md#const-accessiblemenuitem)
 * [BreadcrumbStoreProvider](globals.md#const-breadcrumbstoreprovider)
 * [BreadcrumbsClean$](globals.md#const-breadcrumbsclean)
 * [BurgerMenuBase](globals.md#const-burgermenubase)
+* [MenuContextProvider](globals.md#const-menucontextprovider)
 * [MenuTitleBase](globals.md#const-menutitlebase)
+* [SubmenuIndicatorBase](globals.md#const-submenuindicatorbase)
+* [SubmenuProvider](globals.md#const-submenuprovider)
 * [TogglerBase](globals.md#const-togglerbase)
+* [asAccessibleMenuTitle](globals.md#const-asaccessiblemenutitle)
+* [asAccessibleSubMenuTitle](globals.md#const-asaccessiblesubmenutitle)
 * [asBodilessMenu](globals.md#const-asbodilessmenu)
 * [asBreadcrumb](globals.md#const-asbreadcrumb)
 * [asBreadcrumbSource](globals.md#const-asbreadcrumbsource)
@@ -125,13 +148,20 @@
 * [useBreadcrumbContext](globals.md#const-usebreadcrumbcontext)
 * [useBreadcrumbStore](globals.md#const-usebreadcrumbstore)
 * [useBurgerMenuContext](globals.md#const-useburgermenucontext)
+* [useHasLink](globals.md#const-usehaslink)
+* [useHasSubmenu](globals.md#const-usehassubmenu)
 * [useIsActiveTrail](globals.md#const-useisactivetrail)
 * [useIsBreadcrumbItemCurrentPage](globals.md#const-useisbreadcrumbitemcurrentpage)
 * [useIsBurgerMenuHidden](globals.md#const-useisburgermenuhidden)
 * [useIsBurgerMenuVisible](globals.md#const-useisburgermenuvisible)
 * [useIsBurgerTransitionCompleted](globals.md#const-useisburgertransitioncompleted)
+* [useIsHoverEnabled](globals.md#const-useishoverenabled)
 * [useIsLastBreadcrumbItemRenderedAsALink](globals.md#const-useislastbreadcrumbitemrenderedasalink)
 * [useIsMenuOpen](globals.md#const-useismenuopen)
+* [useIsSubmenuContracted](globals.md#const-useissubmenucontracted)
+* [useIsSubmenuExpanded](globals.md#const-useissubmenuexpanded)
+* [useMenuContext](globals.md#const-usemenucontext)
+* [useSubmenuContext](globals.md#const-usesubmenucontext)
 * [withBreadcrumbItemToken](globals.md#const-withbreadcrumbitemtoken)
 * [withBreadcrumbItemsFromStore](globals.md#const-withbreadcrumbitemsfromstore)
 * [withBreadcrumbStore](globals.md#const-withbreadcrumbstore)
@@ -147,10 +177,14 @@
 * [withListSubMenu](globals.md#const-withlistsubmenu)
 * [withMenuContext](globals.md#const-withmenucontext)
 * [withMenuDesign](globals.md#const-withmenudesign)
+* [withMenuEditContext](globals.md#const-withmenueditcontext)
 * [withMenuTitleEditors](globals.md#const-withmenutitleeditors)
 * [withOverviewLink](globals.md#const-withoverviewlink)
 * [withSecondLevelDesign](globals.md#const-withsecondleveldesign)
 * [withSubMenuDesign](globals.md#const-withsubmenudesign)
+* [withSubmenuContext](globals.md#const-withsubmenucontext)
+* [withSubmenuToggle](globals.md#const-withsubmenutoggle)
+* [withSubmenuWrapperAttrs](globals.md#const-withsubmenuwrapperattrs)
 * [withThirdLevelDesign](globals.md#const-withthirdleveldesign)
 
 ### Object literals
@@ -158,6 +192,7 @@
 * [BreadcrumbStartComponents](globals.md#const-breadcrumbstartcomponents)
 * [DEFAULT_NODE_KEYS](globals.md#const-default_node_keys)
 * [MenuTitleComponents](globals.md#const-menutitlecomponents)
+* [SubmenuIndicatorComponents](globals.md#const-submenuindicatorcomponents)
 * [TogglerComponents](globals.md#const-togglercomponents)
 * [burgerMenuComponents](globals.md#const-burgermenucomponents)
 
@@ -167,7 +202,7 @@
 
 Ƭ **BreadcrumbItemLink**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L24)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L24)*
 
 #### Type declaration:
 
@@ -181,7 +216,7 @@ ___
 
 Ƭ **BreadcrumbItemSettings**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L28)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L28)*
 
 #### Type declaration:
 
@@ -201,7 +236,7 @@ ___
 
 Ƭ **BreadcrumbItemTitle**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L19)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L19)*
 
 #### Type declaration:
 
@@ -215,9 +250,9 @@ ___
 
 Ƭ **BreadcrumbItemType**: *Pick‹BreadcrumbStoreItemType, "uuid" | "title" | "link" | "isFirst" | "hasPath"›*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L35)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L35)*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L43)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L43)*
 
 contains breadcrumb item public properties
 
@@ -227,7 +262,7 @@ ___
 
 Ƭ **BreadcrumbSettings**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L52)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L52)*
 
 #### Type declaration:
 
@@ -241,7 +276,7 @@ ___
 
 Ƭ **BreadcrumbStoreItemsReducer**: *function*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L53)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L53)*
 
 reduces items retrieved from breadcrumb store
 
@@ -268,7 +303,7 @@ ___
 
 Ƭ **BreadcrumbStoreType**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:181](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L181)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:181](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L181)*
 
 #### Type declaration:
 
@@ -304,7 +339,7 @@ ___
 
 Ƭ **BreadcrumbsComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L21)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L21)*
 
 #### Type declaration:
 
@@ -328,7 +363,7 @@ ___
 
 Ƭ **BreadcrumbsProps**: *DesignableComponentsProps‹[BreadcrumbsComponents](globals.md#breadcrumbscomponents)› & object & WithNodeProps*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L58)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L58)*
 
 ___
 
@@ -336,7 +371,7 @@ ___
 
 Ƭ **BurgerMenuBaseProps**: *DesignableComponentsProps‹[BurgerMenuComponents](globals.md#burgermenucomponents)›*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L30)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L30)*
 
 ___
 
@@ -344,7 +379,7 @@ ___
 
 Ƭ **BurgerMenuComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L20)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L20)*
 
 #### Type declaration:
 
@@ -364,7 +399,7 @@ ___
 
 Ƭ **BurgerMenuContextType**: *object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L23)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L23)*
 
 Type of a Burger Menu Context.
 
@@ -384,7 +419,7 @@ ___
 
 Ƭ **BurgerMenuProps**: *DesignableProps‹[BurgerMenuComponents](globals.md#burgermenucomponents)›*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L28)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L28)*
 
 ___
 
@@ -392,7 +427,7 @@ ___
 
 Ƭ **CleanBreadcrumbItemType**: *object & WithNodeProps*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L34)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L34)*
 
 ___
 
@@ -400,7 +435,7 @@ ___
 
 Ƭ **CleanBreadcrumbsProps**: *Omit‹[BreadcrumbsProps](globals.md#breadcrumbsprops), "itemsReducer"›*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L84)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/types.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/types.tsx#L84)*
 
 ___
 
@@ -408,7 +443,7 @@ ___
 
 Ƭ **LDItemType**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx#L29)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx#L29)*
 
 #### Type declaration:
 
@@ -424,11 +459,27 @@ ___
 
 ___
 
+###  MenuContextType
+
+Ƭ **MenuContextType**: *object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L24)*
+
+#### Type declaration:
+
+* **activeSubmenu**? : *undefined | string*
+
+* **setActiveSubmenu**(): *function*
+
+  * (`id?`: undefined | string): *void*
+
+___
+
 ###  MenuTitleComponents
 
 Ƭ **MenuTitleComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L26)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L26)*
 
 #### Type declaration:
 
@@ -442,7 +493,61 @@ ___
 
 Ƭ **MenuTitleProps**: *DesignableComponentsProps‹[MenuTitleComponents](globals.md#menutitlecomponents)›*
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L31)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L31)*
+
+___
+
+###  SubmenuContextType
+
+Ƭ **SubmenuContextType**: *object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L24)*
+
+#### Type declaration:
+
+* **hasSubmenu**: *boolean*
+
+* **menuItemId**: *string*
+
+* **menuItemTitle**: *string*
+
+___
+
+###  SubmenuIndicatorComponents
+
+Ƭ **SubmenuIndicatorComponents**: *object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:146](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L146)*
+
+#### Type declaration:
+
+* **Button**: *ComponentType‹any›*
+
+* **Title**: *ComponentType‹any›*
+
+___
+
+###  SubmenuIndicatorProps
+
+Ƭ **SubmenuIndicatorProps**: *DesignableComponentsProps‹[SubmenuIndicatorComponents](globals.md#submenuindicatorcomponents)›*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:151](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L151)*
+
+___
+
+###  SubmenuProviderType
+
+Ƭ **SubmenuProviderType**: *object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L30)*
+
+#### Type declaration:
+
+* **hasSubmenu**: *boolean*
+
+* **menuItemId**: *string*
+
+* **menuItemTitle**: *string*
 
 ___
 
@@ -450,7 +555,7 @@ ___
 
 Ƭ **TogglerComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L24)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L24)*
 
 #### Type declaration:
 
@@ -464,7 +569,7 @@ ___
 
 Ƭ **TogglerProps**: *DesignableComponentsProps‹[TogglerComponents](globals.md#togglercomponents)›*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L29)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L29)*
 
 ## Variables
 
@@ -472,7 +577,7 @@ ___
 
 • **BreadcrumbContextProvider**: *ProviderExoticComponent‹ProviderProps‹undefined | object››* = breadcrumbContext.Provider
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L32)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L32)*
 
 ___
 
@@ -480,7 +585,7 @@ ___
 
 • **BreadcrumbsClean**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(BreadcrumbStartComponents, 'Breadcrumbs')(BreadcrumbsClean$)
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:129](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L129)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:129](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L129)*
 
 Clean component that renders breadcrumbs.
 
@@ -492,7 +597,7 @@ ___
 
 • **BreadcrumbsStoreContext**: *Context‹undefined | object›* = React.createContext<BreadcrumbStoreType | undefined>(undefined)
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L21)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L21)*
 
 ___
 
@@ -500,7 +605,7 @@ ___
 
 • **BurgerMenuClean**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(burgerMenuComponents, 'BurgerMenu')(BurgerMenuBase)
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L58)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L58)*
 
 ___
 
@@ -513,7 +618,7 @@ ___
   setIsTransitionComplete: () => null,
 })
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L30)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L30)*
 
 ___
 
@@ -521,7 +626,7 @@ ___
 
 • **BurgerMenuDefaultToggler**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = withBurgerMenuTogglerStyles(BurgerMenuTogglerClean)
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L99)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L99)*
 
 Default Burger Menu Toggler button. Toggles button icon based on the
 burger menu state ('close' | 'menu'). Has an onClick handler that toggles
@@ -540,7 +645,7 @@ ___
   asBurgerMenuToggler,
 )(TogglerBase)
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L85)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L85)*
 
 Clean Unstyled version of Burger Menu Toggler button.
 Has an onClick handler that toggles BurgerMenuContext 'isVisible' prop.
@@ -551,11 +656,57 @@ For this button to work both burger menu and toggler button should be inside Bur
 
 ___
 
+### `Const` ClickOutside
+
+• **ClickOutside**: *ForwardRefExoticComponent‹object & RefAttributes‹HTMLLIElement››* = React.forwardRef<HTMLLIElement, any>((props, ref) => {
+  useClickOutside(ref as React.MutableRefObject<HTMLLIElement>, props.onClickOutside);
+  return null;
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L51)*
+
+___
+
 ### `Const` DEFAULT_URL_BASE
 
 • **DEFAULT_URL_BASE**: *"http://host"* = "http://host"
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L53)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L53)*
+
+___
+
+### `Const` FocusOnEsc
+
+• **FocusOnEsc**: *ForwardRefExoticComponent‹object & RefAttributes‹any››* = React.forwardRef<any, any>((props, ref) => {
+  if (typeof ref === 'function') return null;
+  if (ref && ref.current) {
+    const escFunction = useCallback((event) => {
+      // Listen for ESC key only
+      const key = event.key || event.keyCode;
+      if (key === 'Escape' || key === 'Esc' || key === 27) {
+        // Search through all refs element Children
+        for (let i = ref.current.children.length - 1; i >= 0; i -= 1) {
+          // Find Button ( List:Title element ) and set focus on it when submenu closes with ESC key
+          if (ref.current.children[i].tagName === 'BUTTON') {
+            ref.current.children[i].focus();
+          }
+        }
+      }
+    }, []);
+
+    useEffect(() => {
+      ref.current.addEventListener('keyup', escFunction, false);
+
+      return () => {
+        ref.current.removeEventListener('keyup', escFunction, false);
+      };
+    }, []);
+  }
+
+  return null;
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L56)*
 
 ___
 
@@ -563,7 +714,7 @@ ___
 
 • **ItemNodeProvider**: *ComponentClass‹object, any› | FunctionComponent‹object›* = withNode(Fragment) as ComponentType<WithNodeProps>
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L37)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L37)*
 
 ___
 
@@ -571,9 +722,20 @@ ___
 
 • **MenuBreadcrumbs**: *any* = asBreadcrumbs(BreadcrumbsClean)
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:176](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L176)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:176](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L176)*
 
 Component that renders breadcrumb items retrieved from breadcrumb store.
+
+___
+
+### `Const` MenuContext
+
+• **MenuContext**: *Context‹object›* = createContext<MenuContextType>({
+  activeSubmenu: undefined,
+  setActiveSubmenu: () => null,
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L29)*
 
 ___
 
@@ -581,7 +743,7 @@ ___
 
 • **MenuTitle**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(MenuTitleComponents, 'MenuTitle')(MenuTitleBase)
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L58)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L58)*
 
 Clean component that renders Menu Titles.
 
@@ -589,11 +751,56 @@ Clean component that renders Menu Titles.
 
 ___
 
+### `Const` SubmenuContext
+
+• **SubmenuContext**: *Context‹object›* = createContext<SubmenuContextType>({
+  hasSubmenu: false,
+  menuItemId: '',
+  menuItemTitle: '',
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L36)*
+
+___
+
+### `Const` SubmenuIndicator
+
+• **SubmenuIndicator**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = asToken(
+  withSubmenuToggle,
+  withDesign({
+    Button: asToken(
+      asAccessibleMenuTitle(true),
+      asAccessibleSubMenuTitle,
+      addClasses('flex items-center'),
+    ),
+    Title: asToken(
+      addClasses('material-icons'),
+      addProps({ children: 'expand_more' }),
+    ),
+  }),
+)(SubmenuIndicatorClean)
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:170](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L170)*
+
+___
+
+### `Const` SubmenuIndicatorClean
+
+• **SubmenuIndicatorClean**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(SubmenuIndicatorComponents, 'SubmenuIndicator')(SubmenuIndicatorBase)
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:169](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L169)*
+
+Clean component that renders Submenu Indicator.
+
+**`see`** SubmenuIndicatorComponents for a list of design components.
+
+___
+
 ### `Const` asAbsolute
 
 • **asAbsolute**: *function & object* = addClasses('absolute')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L19)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L19)*
 
 ___
 
@@ -616,9 +823,39 @@ ___
   ),
 )
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L57)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L57)*
 
 Hoc to make breadcrumbs accessible
+
+___
+
+### `Const` asAccessibleMenu
+
+• **asAccessibleMenu**: *function & object* = asToken(
+  withAccessibleMenuAttr,
+  withAccessibleMenuInteractions,
+)
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:242](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L242)*
+
+Token that makes menu accessible.
+Wraps menu in Nav tag and adds keyboard interactions.
+
+___
+
+### `Const` asAccessibleSubMenu
+
+• **asAccessibleSubMenu**: *function & object* = asToken(
+  withAccessibleSubmenuItem,
+  withSubmenuIndicator,
+  withAccessibleSubMenuAttr,
+)
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:272](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L272)*
+
+Token that makes Sub Menu accessible.
+It adds Sub Menu indicator to the main menu items that have submenus
+and accessibility attributes to the submenu items.
 
 ___
 
@@ -631,7 +868,7 @@ ___
   withBreadcrumbsSD,
 )
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:166](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L166)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:166](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L166)*
 
 HOC that adds breadcrumb props retrieved from breadcrumb store.
 
@@ -651,7 +888,7 @@ ___
 
 • **asDisabled**: *function & object* = addClasses('pointer-events-none')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L35)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L35)*
 
 ___
 
@@ -659,7 +896,7 @@ ___
 
 • **asFixed**: *function & object* = addClasses('fixed')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L20)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L20)*
 
 ___
 
@@ -667,7 +904,7 @@ ___
 
 • **asFlex**: *function & object* = addClasses('flex')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L17)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L17)*
 
 ___
 
@@ -684,44 +921,46 @@ ___
   ),
 })
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L38)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L38)*
 
 ___
 
 ### `Const` asFullWidthSubMenu
 
 • **asFullWidthSubMenu**: *function & object* = asToken(
+  withBaseSubMenuStyles,
+  asAccessibleSubMenu,
   asFullWidthSublist,
   asStaticOnHover,
-  withBaseSubMenuStyles,
-  asRelativeNotActive,
+  withHoverStyles,
 )
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L116)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:139](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L139)*
 
 ___
 
 ### `Const` asFullWidthSublist
 
 • **asFullWidthSublist**: *function & object* = withDesign({
-  Wrapper: withFullWidthStyles,
+  Wrapper: addClasses('w-full left-0'),
 })
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L69)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L62)*
 
 ___
 
 ### `Const` asListSubMenu
 
 • **asListSubMenu**: *function & object* = asToken(
+  withBaseSubMenuStyles,
+  asAccessibleSubMenu,
   asResponsiveSublist,
   asVerticalSubMenu,
-  withBaseSubMenuStyles,
-  asVisibleOnActive,
+  withHoverStyles,
   asRelative,
 )
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:104](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L104)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:126](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L126)*
 
 ___
 
@@ -733,7 +972,7 @@ ___
   withNodeKey('title'),
 )
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L105)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L105)*
 
 Token that transforms component into Menu Card with node and 'title' nodeKey.
 Can be applied to the Title design key.
@@ -748,7 +987,7 @@ ___
   withNodeKey('title'),
 )
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:95](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L95)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:95](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L95)*
 
 Token that transforms component into MenuTitle with node and 'title' nodeKey.
 MenuTitle has Link and Title design keys. Can be applied to the Title design key.
@@ -769,7 +1008,7 @@ ___
 
 • **asOverflowHidden**: *function & object* = addClasses('overflow-hidden')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L21)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L21)*
 
 ___
 
@@ -777,7 +1016,7 @@ ___
 
 • **asPositionedLeft**: *function & object* = addClasses('left-0')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L24)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L24)*
 
 ___
 
@@ -785,29 +1024,17 @@ ___
 
 • **asRelative**: *function & object* = addClasses('relative')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L18)*
-
-___
-
-### `Const` asRelativeNotActive
-
-• **asRelativeNotActive**: *function & object* = asToken(
-  addClassesIf(isMenuContextNotActive)('relative'),
-)
-
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L65)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L18)*
 
 ___
 
 ### `Const` asResponsiveSublist
 
 • **asResponsiveSublist**: *function & object* = withDesign({
-  Wrapper: asToken(
-    addClasses('min-w-full'),
-  ),
+  Wrapper: addClasses('min-w-full'),
 })
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:54](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L54)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L53)*
 
 ___
 
@@ -819,7 +1046,7 @@ ___
   withDefaultBackground,
 )
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:80](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L80)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:80](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L80)*
 
 A Token that adds styles and transitions needed for a slide-in animation for the Burger menu.
 
@@ -834,7 +1061,7 @@ ___
   removeClassesIf(useIsMenuOpen)('hover:static'),
 )
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:60](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L60)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L57)*
 
 ___
 
@@ -850,7 +1077,7 @@ ___
   Item: stylable,
 })
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L32)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L32)*
 
 Makes all Breadcrumb design components stylable.
 
@@ -862,17 +1089,7 @@ ___
   Wrapper: withColumnDirectionStyles,
 })
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L46)*
-
-___
-
-### `Const` asVisibleOnActive
-
-• **asVisibleOnActive**: *function & object* = asToken(
-  addClassesIf(isMenuContextActive)('overflow-visible'),
-)
-
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L50)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L49)*
 
 ___
 
@@ -880,7 +1097,7 @@ ___
 
 • **breadcrumbContext**: *Context‹undefined | object›* = createContext<BreadcrumbItemType | undefined>(undefined)
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L26)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L26)*
 
 ___
 
@@ -888,31 +1105,95 @@ ___
 
 • **depthDesignPathOptions**: *[withSecondLevelDesign](globals.md#const-withsecondleveldesign)[]* = [() => [], withSecondLevelDesign, withThirdLevelDesign]
 
-*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L32)*
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L32)*
+
+___
+
+### `Const` withAccessibleMenuAttr
+
+• **withAccessibleMenuAttr**: *function & object* = withDesign({
+  Wrapper: addProps({ role: 'menubar', 'aria-label': 'Navigation Menu' }),
+  Title: asToken(
+    asAccessibleMenuTitle(),
+    flowIf(() => useHasSubmenu() && !useHasLink())(
+      asAccessibleSubMenuTitle,
+      withFinalDesign({
+        Link: withDesign({
+          Link: startWith(Button),
+          _default: startWith(Button),
+        }),
+      }),
+    ),
+  ),
+  Item: addProps({ role: 'none' }),
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:210](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L210)*
+
+Token that adds an accessibility attributes to the menu
+
+___
+
+### `Const` withAccessibleMenuInteractions
+
+• **withAccessibleMenuInteractions**: *function & object* = withDesign({
+  Wrapper: withMenuNav,
+  Title: flowIf(useHasSubmenu)(
+    flowIf(not(useHasLink))(withSubmenuToggle),
+  ),
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:231](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L231)*
+
+Token that wraps menu in the Nav tag and adds an ability
+to toggle submenus with a keyboard.
+
+___
+
+### `Const` withAccessibleSubMenuAttr
+
+• **withAccessibleSubMenuAttr**: *function & object* = withDesign({
+  Wrapper: withSubmenuWrapperAttrs,
+  Title: asAccessibleMenuTitle(),
+  Item: addProps({ role: 'none' }),
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:261](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L261)*
+
+Token that adds an accessibility attributes to the Sub Menu.
+
+___
+
+### `Const` withAccessibleSubmenuItem
+
+• **withAccessibleSubmenuItem**: *function & object* = withDesign({
+  OuterWrapper: startWith(AccessibleMenuItem),
+})
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:142](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L142)*
 
 ___
 
 ### `Const` withBaseMenuStyles
 
-• **withBaseMenuStyles**: *function & object* = asToken(
-  withHoverStyles,
-  withDesign({
-    Wrapper: asToken(asFlex, asRelative),
-    Item: asOverflowHidden,
-  }),
-)
+• **withBaseMenuStyles**: *function & object* = withDesign({
+  Wrapper: asToken(asFlex, asRelative, withMenuContext),
+  Item: asFlex,
+})
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L84)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:107](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L107)*
 
 ___
 
 ### `Const` withBaseSubMenuStyles
 
 • **withBaseSubMenuStyles**: *function & object* = withDesign({
-  Wrapper: asToken(asFlex, asAbsolute, asPositionedLeft),
+  OuterWrapper: withSubmenuContext,
+  Wrapper: addClasses('absolute top-full'),
+  SubmenuIndicator: addClasses('flex items-center'),
 })
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:96](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L96)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L116)*
 
 ___
 
@@ -929,7 +1210,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L79)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L79)*
 
 ___
 
@@ -942,7 +1223,7 @@ ___
   ),
 })
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L59)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L59)*
 
 A Token that adds styles to the Button component of Burger Menu Toggler.
 Adds a material-icon class and pointer styles.
@@ -957,7 +1238,7 @@ ___
   Item: asChameleonSubList(() => ({ formTitle: 'Sub-Menu Type' })),
 })
 
-*Defined in [packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx#L25)*
+*Defined in [packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx#L25)*
 
 ___
 
@@ -965,7 +1246,7 @@ ___
 
 • **withColumnDirectionStyles**: *function & object* = addClasses('flex-col')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L29)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L29)*
 
 ___
 
@@ -975,7 +1256,7 @@ ___
   Wrapper: withLightGrayBg,
 })
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L49)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L49)*
 
 ___
 
@@ -983,21 +1264,21 @@ ___
 
 • **withDefaultFinalTrailNodeKey**: *(Anonymous function)* = withDefaultNodeKeys('finalTrail')
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L30)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L30)*
 
 ___
 
 ### `Const` withDefaultMenuTitleEditors
 
 • **withDefaultMenuTitleEditors**: *function & object* = withDesign({
-  Link: asMenuLink(withBodilessLinkToggle(asBodilessLink, startWith(Div), true)),
+  Link: asMenuLink(withBodilessLinkToggle(asBodilessLink, startWith(A), true)),
   Title: asToken(
     startWith(Fragment),
     asEditable('text', 'Menu Item'),
   ),
 })
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:70](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L70)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:70](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L70)*
 
 Token that adds a default Editors to the menu Title and Link.
 Transforms Link into Editable Bodiless Link Toggle and Title to Editable.
@@ -1013,7 +1294,7 @@ ___
   Link: addProps({ href: '/' }),
 })
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L36)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L36)*
 
 If no custom values are specified for the StartingTrail it will default to
 `Home` as a Title with a Link to `/` when link-toggle is ON.
@@ -1024,7 +1305,7 @@ ___
 
 • **withDefaultStartingTrailNodeKey**: *(Anonymous function)* = withDefaultNodeKeys('startingTrail')
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L29)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L29)*
 
 ___
 
@@ -1034,7 +1315,7 @@ ___
   Label: asDisabled,
 })
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L71)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L71)*
 
 A Token that disables pointer events on the accordion Label element.
 
@@ -1048,7 +1329,7 @@ ___
   hasFinalTrail: true,
 })
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:151](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L151)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:151](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L151)*
 
 HOC that enables rendering of final trail for a breadcrumb based component.
 
@@ -1060,7 +1341,7 @@ ___
 
 • **withFullHeightStyles**: *function & object* = addClasses('h-full')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L28)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L28)*
 
 ___
 
@@ -1068,7 +1349,7 @@ ___
 
 • **withFullWidthStyles**: *function & object* = addClasses('w-full')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L27)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L27)*
 
 ___
 
@@ -1076,20 +1357,27 @@ ___
 
 • **withFullZIndex**: *function & object* = addClasses('z-full')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L26)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L26)*
 
 ___
 
 ### `Const` withHoverStyles
 
 • **withHoverStyles**: *function & object* = withDesign({
-  Item: asToken(
-    withVisibleOnHoverStyles,
-    removeClassesIf(useIsMenuOpen)('hover:overflow-visible'),
+  OuterWrapper: asToken(
+    addClassesIf(useIsHoverEnabled)('group'),
+    observer as Token,
+  ),
+  Wrapper: asToken(
+    addClasses('group-hover:flex'),
+    addClassesIf(useIsSubmenuContracted)('hidden'),
+    observer as Token,
+    addClassesIf(useIsSubmenuExpanded)('flex'),
+    observer as Token,
   ),
 })
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:73](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L73)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:89](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L89)*
 
 ___
 
@@ -1097,7 +1385,7 @@ ___
 
 • **withLightGrayBg**: *function & object* = addClasses('bg-gray-200')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L30)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L30)*
 
 ___
 
@@ -1105,7 +1393,26 @@ ___
 
 • **withMaterialIconsFont**: *function & object* = addClasses('material-icons')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L33)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L33)*
+
+___
+
+### `Const` withMenuNav
+
+• **withMenuNav**: *function & object* = asToken(
+  withParent(Nav, 'Nav'),
+  withDesign({
+    Nav: asToken(
+      addClasses('w-full'),
+      addProps({ 'aria-label': 'Main Site Navigation Menu', role: 'navigation' }),
+    ),
+  }),
+)
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:197](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L197)*
+
+HOC that wrappes the component in a navigation region implemented with
+a nav element that has an aria-label that matches the label on the menubar.
 
 ___
 
@@ -1113,7 +1420,7 @@ ___
 
 • **withNoInsetStyles**: *function & object* = addClasses('inset-0')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L25)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L25)*
 
 ___
 
@@ -1121,7 +1428,7 @@ ___
 
 • **withPointerCursorStyles**: *function & object* = addClasses('cursor-pointer')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L34)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L34)*
 
 ___
 
@@ -1140,7 +1447,7 @@ ___
   ),
 })
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L25)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenu.token.tsx#L25)*
 
 ___
 
@@ -1148,7 +1455,7 @@ ___
 
 • **withSlideInTranslateStyles**: *function & object* = addClasses('-translate-x-full')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L32)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L32)*
 
 ___
 
@@ -1158,7 +1465,7 @@ ___
   hasStartingTrail: true,
 })
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:135](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L135)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:135](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L135)*
 
 HOC that enables rendering of starting trail for a breadcrumb based component.
 
@@ -1170,7 +1477,20 @@ ___
 
 • **withStaticOnHoverStyles**: *function & object* = addClasses('hover:static')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L23)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L23)*
+
+___
+
+### `Const` withSubmenuIndicator
+
+• **withSubmenuIndicator**: *function & object* = flowIf(useHasLink)(
+  withAppendChild(SubmenuIndicator, 'SubmenuIndicator'),
+)
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:189](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L189)*
+
+Token that adds SubmenuIndicator to the Menu Item if
+it has a submenu and it's title is a link.
 
 ___
 
@@ -1178,7 +1498,7 @@ ___
 
 • **withTransformStyles**: *function & object* = addClasses('transform')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L31)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L31)*
 
 ___
 
@@ -1186,7 +1506,7 @@ ___
 
 • **withVisibleOnHoverStyles**: *function & object* = addClasses('hover:overflow-visible')
 
-*Defined in [packages/bodiless-navigation/src/token.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/token.tsx#L22)*
+*Defined in [packages/bodiless-navigation/src/token.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/token.tsx#L22)*
 
 ___
 
@@ -1196,7 +1516,7 @@ ___
   hasFinalTrail: false,
 })
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:159](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L159)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:159](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L159)*
 
 HOC that disables rendering of final trail for a breadcrumb based component.
 
@@ -1210,7 +1530,7 @@ ___
   hasStartingTrail: false,
 })
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:143](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L143)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:143](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L143)*
 
 HOC that disables rendering of starting trail for a breadcrumb based component.
 
@@ -1218,11 +1538,27 @@ HOC that disables rendering of starting trail for a breadcrumb based component.
 
 ## Functions
 
+### `Const` AccessibleMenuItem
+
+▸ **AccessibleMenuItem**(`props`: any): *Element‹›*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:119](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L119)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`props` | any |
+
+**Returns:** *Element‹›*
+
+___
+
 ### `Const` BreadcrumbStoreProvider
 
 ▸ **BreadcrumbStoreProvider**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L26)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L26)*
 
 Component that adds react context provider containing store to its children.
 
@@ -1243,7 +1579,7 @@ ___
 
 ▸ **BreadcrumbsClean$**(`props`: [CleanBreadcrumbsProps](globals.md#cleanbreadcrumbsprops)): *Element‹›*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L39)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L39)*
 
 **Parameters:**
 
@@ -1259,7 +1595,7 @@ ___
 
 ▸ **BurgerMenuBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L40)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L40)*
 
 **Parameters:**
 
@@ -1269,6 +1605,24 @@ Name | Type |
 ------ | ------ |
 `components` | object |
 `rest` | rest |
+
+**Returns:** *Element‹›*
+
+___
+
+### `Const` MenuContextProvider
+
+▸ **MenuContextProvider**(`__namedParameters`: object): *Element‹›*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L40)*
+
+**Parameters:**
+
+▪ **__namedParameters**: *object*
+
+Name | Type |
+------ | ------ |
+`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; object &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray‹› &#124; ReactPortal‹› |
 
 **Returns:** *Element‹›*
 
@@ -1278,7 +1632,7 @@ ___
 
 ▸ **MenuTitleBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L39)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L39)*
 
 **Parameters:**
 
@@ -1288,6 +1642,46 @@ Name | Type |
 ------ | ------ |
 `components` | object |
 `rest` | rest |
+
+**Returns:** *Element‹›*
+
+___
+
+### `Const` SubmenuIndicatorBase
+
+▸ **SubmenuIndicatorBase**(`__namedParameters`: object): *Element‹›*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:153](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L153)*
+
+**Parameters:**
+
+▪ **__namedParameters**: *object*
+
+Name | Type |
+------ | ------ |
+`C` | object |
+`rest` | rest |
+
+**Returns:** *Element‹›*
+
+___
+
+### `Const` SubmenuProvider
+
+▸ **SubmenuProvider**(`__namedParameters`: object): *Element‹›*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L44)*
+
+**Parameters:**
+
+▪ **__namedParameters**: *object*
+
+Name | Type |
+------ | ------ |
+`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; object &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray‹› &#124; ReactPortal‹› |
+`hasSubmenu` | boolean |
+`menuItemId` | string |
+`menuItemTitle` | string |
 
 **Returns:** *Element‹›*
 
@@ -1297,7 +1691,7 @@ ___
 
 ▸ **TogglerBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L36)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L36)*
 
 **Parameters:**
 
@@ -1312,11 +1706,43 @@ Name | Type |
 
 ___
 
+### `Const` asAccessibleMenuTitle
+
+▸ **asAccessibleMenuTitle**(`isSubmenuIndicator`: boolean): *(Anonymous function)*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L85)*
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`isSubmenuIndicator` | boolean | false |
+
+**Returns:** *(Anonymous function)*
+
+___
+
+### `Const` asAccessibleSubMenuTitle
+
+▸ **asAccessibleSubMenuTitle**(`Component`: ComponentType‹any› | string): *(Anonymous function)*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:97](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L97)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Component` | ComponentType‹any› &#124; string |
+
+**Returns:** *(Anonymous function)*
+
+___
+
 ### `Const` asBodilessMenu
 
 ▸ **asBodilessMenu**‹**P**›(`nodeKeys?`: WithNodeKeyProps, `defaultData?`: ListData, `useOverrides`: UseListOverrides‹P›): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx#L41)*
+*Defined in [packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asBodilessMenu.tsx#L41)*
 
 Bodiless HOC generator which creates the basic structure of the Bodiless Menu.
 
@@ -1345,7 +1771,7 @@ ___
 
 ▸ **asBreadcrumb**(`__namedParameters`: object): *HOC*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L67)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L67)*
 
 Creates an HOC which specifies that a wrapped component is a breadcrumb. The HOC
 will read link and title from the specified nodekeys and will push link and title
@@ -1371,7 +1797,7 @@ ___
 
 ▸ **asBreadcrumbSource**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "slot" | "span" | "style" | "summary" | "title" | "pattern" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *FunctionComponent‹any›*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:137](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L137)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:137](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L137)*
 
 Use this HOC to wrap a menu so that it can serve a source of data for breadcrumbs
 and menu trails. It creates a hidden version of the menu which is rendered only during
@@ -1400,7 +1826,7 @@ ___
 
 ▸ **asBurgerMenu**(...`keys`: string[]): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:112](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L112)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:112](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L112)*
 
 Helper which allows specifying which submenu types are configured
 by default for the Burger Menu. Transforms selected submenus into accordions.
@@ -1421,7 +1847,7 @@ ___
 
 ▸ **asBurgerMenuToggler**‹**P**›(`Component`: ComponentType‹P›): *(Anonymous function)*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L56)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L56)*
 
 HOC that adds an ability to toggle Burger Menu visibility on click.
 It extends Component's default onClick handler if exists. Note that
@@ -1447,7 +1873,7 @@ ___
 
 ▸ **asHiddenBreadcrumbSource**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "slot" | "span" | "style" | "summary" | "title" | "pattern" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *AsHiddenBreadcrumbSource*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L44)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L44)*
 
 **Parameters:**
 
@@ -1463,7 +1889,7 @@ ___
 
 ▸ **asMenuLink**(`asEditableLink`: typeof asBodilessLink): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:60](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L60)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:60](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L60)*
 
 **Parameters:**
 
@@ -1479,7 +1905,7 @@ ___
 
 ▸ **asMenuSubList**(`withTitleDesign`: HOC | Token, `useOverrides`: UseListOverrides): *function*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L36)*
+*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L36)*
 
 Creates a stylable sublist which deletes it's data when the last item is removed.
 Suitable for use for all menus.
@@ -1507,7 +1933,7 @@ ___
 
 ▸ **asTopNav**(...`keys`: string[]): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:130](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L130)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:154](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L154)*
 
 Helper which allows specifying which submenu types should have default navigation styling added.
 
@@ -1527,7 +1953,7 @@ ___
 
 ▸ **firstItemHomeLinkReducer**(`items`: [BreadcrumbItemType](globals.md#breadcrumbitemtype)[], `__namedParameters`: object): *string[]*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx#L36)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx#L36)*
 
 removes first item from the trail
 when there is a custom starting trail and
@@ -1555,7 +1981,7 @@ ___
 
 ▸ **generateUrl**(`url`: string): *string*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx#L23)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx#L23)*
 
 **Parameters:**
 
@@ -1571,7 +1997,7 @@ ___
 
 ▸ **isChildOf**(`child`: string, `parent`: string): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L57)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L57)*
 
 **Parameters:**
 
@@ -1588,7 +2014,7 @@ ___
 
 ▸ **isMenuContextActive**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L36)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L39)*
 
 **Returns:** *boolean*
 
@@ -1598,7 +2024,7 @@ ___
 
 ▸ **isMenuContextNotActive**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L41)*
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L44)*
 
 **Returns:** *boolean*
 
@@ -1608,7 +2034,7 @@ ___
 
 ▸ **isSSR**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L46)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L46)*
 
 **Returns:** *boolean*
 
@@ -1618,7 +2044,7 @@ ___
 
 ▸ **trimTrailingSlash**(`str`: string): *string*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L55)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStore.ts#L55)*
 
 **Parameters:**
 
@@ -1634,7 +2060,7 @@ ___
 
 ▸ **useBreadcrumbContext**(): *undefined | object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L31)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L31)*
 
 A Hook to get the current Breadcrumb Item context values.
 
@@ -1646,7 +2072,7 @@ ___
 
 ▸ **useBreadcrumbStore**(): *undefined | object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L33)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/BreadcrumbStoreProvider.tsx#L33)*
 
 React hook to get store.
 
@@ -1658,7 +2084,7 @@ ___
 
 ▸ **useBurgerMenuContext**(): *object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L42)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L42)*
 
 A Hook to get the current Burger Menu `isVisible` and `toggle()` context values.
 
@@ -1676,11 +2102,31 @@ The current Burger Menu `isVisible` and `toggle()` context values.
 
 ___
 
+### `Const` useHasLink
+
+▸ **useHasLink**(): *boolean*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L43)*
+
+**Returns:** *boolean*
+
+___
+
+### `Const` useHasSubmenu
+
+▸ **useHasSubmenu**(): *boolean*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L42)*
+
+**Returns:** *boolean*
+
+___
+
 ### `Const` useIsActiveTrail
 
 ▸ **useIsActiveTrail**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L44)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/asBreadcrumb.tsx#L44)*
 
 Hook which can be used to determine if a menu item is part of
 the current active breadcrumb trail.
@@ -1699,7 +2145,7 @@ ___
 
 ▸ **useIsBreadcrumbItemCurrentPage**(`__namedParameters`: object): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/hooks.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L17)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/hooks.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L17)*
 
 **Parameters:**
 
@@ -1717,7 +2163,7 @@ ___
 
 ▸ **useIsBurgerMenuHidden**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L94)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L94)*
 
 Hook which can be used to determine if Burger Menu is hidden.
 
@@ -1731,7 +2177,7 @@ ___
 
 ▸ **useIsBurgerMenuVisible**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:74](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L74)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:74](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L74)*
 
 Hook which can be used to determine if Burger Menu is visible.
 
@@ -1745,7 +2191,7 @@ ___
 
 ▸ **useIsBurgerTransitionCompleted**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L84)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L84)*
 
 Hook which returns `true` if burger menu transitions are completed.
 Not active means Burger menu is hidden and all animations are completed.
@@ -1758,11 +2204,21 @@ true if the Burger Menu is hidden and all animations are completed.
 
 ___
 
+### `Const` useIsHoverEnabled
+
+▸ **useIsHoverEnabled**(): *boolean*
+
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:76](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L76)*
+
+**Returns:** *boolean*
+
+___
+
 ### `Const` useIsLastBreadcrumbItemRenderedAsALink
 
 ▸ **useIsLastBreadcrumbItemRenderedAsALink**(`__namedParameters`: object): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/hooks.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L21)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/hooks.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/hooks.ts#L21)*
 
 **Parameters:**
 
@@ -1780,9 +2236,9 @@ ___
 
 ▸ **useIsMenuOpen**(): *boolean*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L35)*
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:80](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L80)*
 
-Hook which can be used to determine if any of submenus are open and have it's context activated.
+Hook which can be used to determine if menu context is activated.
 
 **Returns:** *boolean*
 
@@ -1790,11 +2246,66 @@ true if context for any of Items is active, false otherwise.
 
 ___
 
+### `Const` useIsSubmenuContracted
+
+▸ **useIsSubmenuContracted**(): *boolean*
+
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L78)*
+
+**Returns:** *boolean*
+
+___
+
+### `Const` useIsSubmenuExpanded
+
+▸ **useIsSubmenuExpanded**(): *boolean*
+
+*Defined in [packages/bodiless-navigation/src/Menu/Menu.token.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/Menu.token.tsx#L66)*
+
+**Returns:** *boolean*
+
+___
+
+### `Const` useMenuContext
+
+▸ **useMenuContext**(): *object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L38)*
+
+Hook which can be used to get a current active submenu ID
+and a setter to set active submenu.
+
+**Returns:** *object*
+
+* **activeSubmenu**? : *undefined | string*
+
+* **setActiveSubmenu**(): *function*
+
+  * (`id?`: undefined | string): *void*
+
+___
+
+### `Const` useSubmenuContext
+
+▸ **useSubmenuContext**(): *object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L42)*
+
+**Returns:** *object*
+
+* **hasSubmenu**: *boolean*
+
+* **menuItemId**: *string*
+
+* **menuItemTitle**: *string*
+
+___
+
 ### `Const` withBreadcrumbItemToken
 
 ▸ **withBreadcrumbItemToken**(...`tokenDefs`: TokenDef[]): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L47)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumb.token.tsx#L47)*
 
 Applies supplied tokenDefs to all breadcrumb items.
 
@@ -1814,7 +2325,7 @@ ___
 
 ▸ **withBreadcrumbItemsFromStore**(`Component`: ComponentType‹[BreadcrumbsProps](globals.md#breadcrumbsprops)›): *WithBreadcrumbItemsFromStore*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx#L47)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbItemsFromStore.tsx#L47)*
 
 HOC that populates a breadcrumb based component with data from breadcrumb store.
 
@@ -1832,7 +2343,7 @@ ___
 
 ▸ **withBreadcrumbStore**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "slot" | "span" | "style" | "summary" | "title" | "pattern" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *WithBreadcrumbStore*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L26)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L26)*
 
 HOC that adds breadcrumb store and renders breadcrumbs.
 
@@ -1850,7 +2361,7 @@ ___
 
 ▸ **withBreadcrumbs**(`Component`: ComponentType‹any›): *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L45)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbs.tsx#L45)*
 
 HOC that adds breadcrumb store and renders breadcrumbs.
 
@@ -1868,7 +2379,7 @@ ___
 
 ▸ **withBreadcrumbsSD**(`Component`: ComponentType‹[BreadcrumbsProps](globals.md#breadcrumbsprops)›): *(Anonymous function)*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx#L38)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withBreadcrumbsStructuredData.tsx#L38)*
 
 **Parameters:**
 
@@ -1884,7 +2395,7 @@ ___
 
 ▸ **withBurgerMenuProvider**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "slot" | "span" | "style" | "summary" | "title" | "pattern" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *(Anonymous function)*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:54](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L54)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx:54](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuContext.tsx#L54)*
 
 **Parameters:**
 
@@ -1900,7 +2411,7 @@ ___
 
 ▸ **withBurgerMenuWrapper**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "slot" | "span" | "style" | "summary" | "title" | "pattern" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *ComponentClass‹Q, any› & object | FunctionComponent‹Q› & object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:97](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L97)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:97](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L97)*
 
 HOC that wraps the supplied Component in the burger menu chrome.
 
@@ -1920,7 +2431,7 @@ ___
 
 ▸ **withCardsSubMenu**(`withTitleDesign?`: HOC | Token): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L78)*
+*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:77](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L77)*
 
 Helper which can be used to add a Cards submenu option to the menu.
 
@@ -1938,7 +2449,7 @@ ___
 
 ▸ **withColumnSubMenu**(`withTitleDesign?`: HOC | Token): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:90](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L90)*
+*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:89](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L89)*
 
 Helper which can be used to add a Columns submenu option to the menu.
 
@@ -1956,7 +2467,7 @@ ___
 
 ▸ **withDefaultNodeKeys**(`defaultKey`: string): *(Anonymous function)*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L23)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L23)*
 
 **Parameters:**
 
@@ -1972,7 +2483,7 @@ ___
 
 ▸ **withEditableFinalTrail**(`withTitleEditors`: Token, `nodeKeys?`: WithNodeKeyProps): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L84)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L84)*
 
 Enables rendering of the final trail for a Breadcrumb component with a provided Editors.
 Uses `withDefaultMenuTitleEditors` by default.
@@ -1994,7 +2505,7 @@ ___
 
 ▸ **withEditableStartingTrail**(`withTitleEditors`: Token, `nodeKeys?`: WithNodeKeyProps): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L56)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/withEditableTrail.tsx#L56)*
 
 Enables rendering of the starting trail for a Breadcrumb component with a provided Editors.
 Uses `withDefaultMenuTitleEditors` by default, pre-configured with a link to the home page.
@@ -2016,7 +2527,7 @@ ___
 
 ▸ **withListSubMenu**(`withTitleDesign?`: HOC | Token): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L66)*
+*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L65)*
 
 Helper which can be used to add a List submenu option to the menu.
 
@@ -2034,10 +2545,11 @@ ___
 
 ▸ **withMenuContext**‹**P**›(`Component`: ComponentType‹P› | string): *(Anonymous function)*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L22)*
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L55)*
 
-HOC that wrapps component in PageContextProvider with type="menu" and unique id.
-Used by useIsMenuOpen() to determine if menu context is active.
+HOC that wrapps component in MenuContextProvider.
+It stores `activeSubmenu` along with `setActiveSubmenu` setter.
+Note that `activeSubmenu` is a string and corresponds to the top menu item node id.
 
 **Type parameters:**
 
@@ -2057,7 +2569,7 @@ ___
 
 ▸ **withMenuDesign**(`keys`: string | string[], `depths`: number | number[]): *(Anonymous function)*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L63)*
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L63)*
 
 Helper which makes it easier to target a particular type of submenu.
 
@@ -2094,11 +2606,34 @@ Desigh token that applies supplied list of tokens to the provided design keys.
 
 ___
 
+### `Const` withMenuEditContext
+
+▸ **withMenuEditContext**‹**P**›(`Component`: ComponentType‹P› | string): *(Anonymous function)*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuContext.tsx:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuContext.tsx#L67)*
+
+HOC that wrapps component in PageContextProvider with type="menu" and unique id.
+Used by useIsMenuOpen() to determine if menu context is active.
+
+**Type parameters:**
+
+▪ **P**: *Object*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Component` | ComponentType‹P› &#124; string |
+
+**Returns:** *(Anonymous function)*
+
+___
+
 ### `Const` withMenuTitleEditors
 
 ▸ **withMenuTitleEditors**‹**P**›(`withTitleEditors`: Token, ...`tokenDefs`: TokenDef[]): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L84)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L84)*
 
 A helper to apply provided `withTitleEditors` Token to the Title menu key.
 Applies `withDefaultMenuTitleEditors` token by default.
@@ -2122,7 +2657,7 @@ ___
 
 ▸ **withOverviewLink**(`overviewText`: any, `nodeKeys`: object): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L44)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/asBurgerMenu.tsx#L44)*
 
 HOC that adds an overview link to a burger menu sublist.  The overview link
 renders specified text with a link to the destination of the parent menu
@@ -2157,7 +2692,7 @@ ___
 
 ▸ **withSecondLevelDesign**(`keys`: string[]): *any[]*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L22)*
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L22)*
 
 **Parameters:**
 
@@ -2173,7 +2708,7 @@ ___
 
 ▸ **withSubMenuDesign**(`design`: Design‹any›): *function & object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L56)*
+*Defined in [packages/bodiless-navigation/src/Menu/withSubMenu.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withSubMenu.tsx#L55)*
 
 **Parameters:**
 
@@ -2185,11 +2720,74 @@ Name | Type |
 
 ___
 
+### `Const` withSubmenuContext
+
+▸ **withSubmenuContext**‹**P**›(`Component`: ComponentType‹P› | string): *(Anonymous function)*
+
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuItemContext.tsx#L56)*
+
+HOC that wrapps component in SubmenuProvider.
+It stores `hasSubmenu` and `isSubmenuOpen` values along with `setIsSubmenuOpen` setter.
+
+**Type parameters:**
+
+▪ **P**: *Object*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Component` | ComponentType‹P› &#124; string |
+
+**Returns:** *(Anonymous function)*
+
+___
+
+### `Const` withSubmenuToggle
+
+▸ **withSubmenuToggle**(`Component`: ComponentType‹any› | string): *(Anonymous function)*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L105)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Component` | ComponentType‹any› &#124; string |
+
+**Returns:** *(Anonymous function)*
+
+___
+
+### `Const` withSubmenuWrapperAttrs
+
+▸ **withSubmenuWrapperAttrs**‹**P**›(`Component`: ComponentType‹P› | string): *(Anonymous function)*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:252](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L252)*
+
+HOC that adds the accessibility attributes to the Submenu Wrapper.
+This includes 'role' and dynamic `aria-labelledby` that corresponds to
+the menu Item this submenu belongs to.
+
+**Type parameters:**
+
+▪ **P**: *Object*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Component` | ComponentType‹P› &#124; string |
+
+**Returns:** *(Anonymous function)*
+
+___
+
 ### `Const` withThirdLevelDesign
 
 ▸ **withThirdLevelDesign**(`keys`: string[]): *string[][]*
 
-*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L27)*
+*Defined in [packages/bodiless-navigation/src/Menu/withMenuDesign.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/withMenuDesign.tsx#L27)*
 
 **Parameters:**
 
@@ -2205,13 +2803,13 @@ Name | Type |
 
 ### ▪ **BreadcrumbStartComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:112](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L112)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:112](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L112)*
 
 ###  FinalTrail
 
 • **FinalTrail**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = MenuTitle
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:122](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L122)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:122](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L122)*
 
 ###  Item
 
@@ -2220,37 +2818,37 @@ Name | Type |
     asComponent,
   )('li')
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:117](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L117)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:117](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L117)*
 
 ###  NavWrapper
 
 • **NavWrapper**: *FunctionComponent‹HTMLProps‹HTMLDivElement›› | ComponentClass‹HTMLProps‹HTMLDivElement›, any› | function* = asComponent('nav')
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:115](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L115)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:115](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L115)*
 
 ###  Separator
 
 • **Separator**: *FunctionComponent‹HTMLProps‹HTMLSpanElement›› | ComponentClass‹HTMLProps‹HTMLSpanElement›, any› | function* = asComponent('span')
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:114](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L114)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:114](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L114)*
 
 ###  StartingTrail
 
 • **StartingTrail**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = MenuTitle
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L113)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L113)*
 
 ###  Title
 
 • **Title**: *ComponentClass‹any, any› & object | FunctionComponent‹any› & object* = withoutProps(['isCurrentPage'])(MenuTitle)
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:121](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L121)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:121](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L121)*
 
 ###  Wrapper
 
 • **Wrapper**: *FunctionComponent‹HTMLProps‹HTMLUListElement›› | ComponentClass‹HTMLProps‹HTMLUListElement›, any› | function* = asComponent('ol')
 
-*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L116)*
+*Defined in [packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Breadcrumbs/Breadcrumbs.tsx#L116)*
 
 ___
 
@@ -2258,25 +2856,25 @@ ___
 
 ### ▪ **DEFAULT_NODE_KEYS**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L33)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L33)*
 
 ###  linkNodeKey
 
 • **linkNodeKey**: *string* = "title$link"
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L35)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L35)*
 
 ###  titleNodeKey
 
 • **titleNodeKey**: *string* = "title$text"
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L36)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L36)*
 
 ###  toggleNodeKey
 
 • **toggleNodeKey**: *string* = "title$link-toggle"
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L34)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L34)*
 
 ___
 
@@ -2284,19 +2882,39 @@ ___
 
 ### ▪ **MenuTitleComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L48)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L48)*
 
 ###  Link
 
 • **Link**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = A
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L49)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L49)*
 
 ###  Title
 
 • **Title**: *FunctionComponent‹object›* = Fragment
 
-*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L50)*
+*Defined in [packages/bodiless-navigation/src/Menu/MenuTitles.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/MenuTitles.tsx#L50)*
+
+___
+
+### `Const` SubmenuIndicatorComponents
+
+### ▪ **SubmenuIndicatorComponents**: *object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:159](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L159)*
+
+###  Button
+
+• **Button**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object*
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:160](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L160)*
+
+###  Title
+
+• **Title**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Span
+
+*Defined in [packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx:161](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/Menu/asAccessibleMenu.tsx#L161)*
 
 ___
 
@@ -2304,19 +2922,19 @@ ___
 
 ### ▪ **TogglerComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L31)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L31)*
 
 ###  Button
 
 • **Button**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = A
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L33)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L33)*
 
 ###  Wrapper
 
 • **Wrapper**: *FunctionComponent‹object›* = Fragment
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L32)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuToggler.tsx#L32)*
 
 ___
 
@@ -2324,34 +2942,34 @@ ___
 
 ### ▪ **burgerMenuComponents**: *object*
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L32)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L32)*
 
 ###  Header
 
 • **Header**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L36)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L36)*
 
 ###  Menu
 
 • **Menu**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L35)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L35)*
 
 ###  Nav
 
 • **Nav**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = NavBase
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L34)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L34)*
 
 ###  Overlay
 
 • **Overlay**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L37)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L37)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/f8782b4b/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L33)*
+*Defined in [packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-navigation/src/BurgerMenu/BurgerMenuClean.tsx#L33)*
