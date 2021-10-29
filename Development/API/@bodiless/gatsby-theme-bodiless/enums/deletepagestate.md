@@ -17,7 +17,7 @@
 
 • **Complete**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L48)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L48)*
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 • **Errored**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L49)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L49)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **Init**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L46)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L46)*
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 • **Pending**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L47)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/withDeletePageButton.tsx#L47)*

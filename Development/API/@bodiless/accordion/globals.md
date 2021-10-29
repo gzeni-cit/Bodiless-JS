@@ -75,7 +75,7 @@
 
 Ƭ **AccordionBodyBaseProps**: *Omit‹[AccordionBodyProps](globals.md#accordionbodyprops), "design"› & DesignableComponentsProps‹[AccordionBodyComponents](globals.md#accordionbodycomponents)›*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionBody.tsx#L31)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionBody.tsx#L31)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 Ƭ **AccordionBodyComponents**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L46)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L46)*
 
 #### Type declaration:
 
@@ -97,7 +97,7 @@ ___
 
 Ƭ **AccordionBodyProps**: *DesignableProps‹[AccordionBodyComponents](globals.md#accordionbodycomponents)›*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L52)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L52)*
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 Ƭ **AccordionComponents**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:54](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L54)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:54](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L54)*
 
 #### Type declaration:
 
@@ -121,7 +121,7 @@ ___
 
 Ƭ **AccordionContextType**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L31)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L31)*
 
 #### Type declaration:
 
@@ -143,7 +143,7 @@ ___
 
 Ƭ **AccordionMeta**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L18)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L18)*
 
 #### Type declaration:
 
@@ -159,7 +159,7 @@ ___
 
 Ƭ **AccordionProps**: *DesignableComponentsProps‹[AccordionComponents](globals.md#accordioncomponents)›*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:60](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L60)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:60](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L60)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 Ƭ **AccordionProviderProps**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L24)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L24)*
 
 #### Type declaration:
 
@@ -185,7 +185,7 @@ ___
 
 Ƭ **AccordionTitleBaseProps**: *Omit‹[AccordionTitleProps](globals.md#accordiontitleprops), "design"› & DesignableComponentsProps‹[AccordionTitleComponents](globals.md#accordiontitlecomponents)›*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L41)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L41)*
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 Ƭ **AccordionTitleComponents**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L40)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L40)*
 
 #### Type declaration:
 
@@ -209,7 +209,7 @@ ___
 
 Ƭ **AccordionTitleProps**: *DesignableProps‹[AccordionTitleComponents](globals.md#accordiontitlecomponents)›*
 
-*Defined in [packages/bodiless-accordion/src/components/types.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/types.tsx#L51)*
+*Defined in [packages/bodiless-accordion/src/components/types.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/types.tsx#L51)*
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 Ƭ **SingleAccordionComponents**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L31)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L31)*
 
 #### Type declaration:
 
@@ -237,7 +237,7 @@ ___
 
 • **AccordionBodyClean**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(AccordionBodyComponentsStart, 'AccordionBody')(AccordionBodyBase)
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionBody.tsx#L55)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionBody.tsx#L55)*
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 • **AccordionClean**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(AccordionComponentsStart, 'Accordion')(AccordionBase)
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tsx#L71)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tsx#L71)*
 
 ___
 
@@ -264,7 +264,7 @@ ___
   },
 })
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L23)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L23)*
 
 ___
 
@@ -272,7 +272,7 @@ ___
 
 • **AccordionTitleClean**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(accordionTitleComponents, 'AccordionTitle')(AccordionTitleBase)
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:76](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L76)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:76](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L76)*
 
 ___
 
@@ -283,7 +283,7 @@ ___
   withNode,
 )(SingleAccordionClean)
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:118](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L118)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:118](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L118)*
 
 ___
 
@@ -341,7 +341,7 @@ ___
   );
 })
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L47)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L47)*
 
 ___
 
@@ -349,7 +349,7 @@ ___
 
 • **SingleAccordionClean**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = designable(singleAccordionComponentStart, 'Accordion')(SingleAccordionBase)
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L116)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L116)*
 
 ___
 
@@ -360,7 +360,7 @@ ___
   withNode,
 )(SingleAccordionClean)
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:123](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L123)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:123](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L123)*
 
 ___
 
@@ -370,7 +370,7 @@ ___
   addClasses('truncate'),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:96](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L96)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:96](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L96)*
 
 asAccordionBodyContent truncates accordion body content
 
@@ -383,7 +383,7 @@ ___
   addClassesIf(isAccordionContracted)('hidden'),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:88](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L88)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:88](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L88)*
 
 asAccordionBodyWrapper controls accordion body visibility according to
 expand/collapse behavior
@@ -402,7 +402,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:103](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L103)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:103](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L103)*
 
 asAccordionBorder borders accordion title
 
@@ -414,7 +414,7 @@ ___
   addClasses('border border-solid border-black'),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L48)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L48)*
 
 asAccordionDefaultBorder provides basic border style
 
@@ -426,7 +426,7 @@ ___
   addProps({ expanded: 'true' }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L55)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L55)*
 
 asAccordionDefaultExpanded provides expanded property
 
@@ -456,7 +456,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L116)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:116](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L116)*
 
 asAccordionFocus adds border around the accordion component on focus event
 
@@ -471,7 +471,7 @@ ___
   addPropsIf(isAccordionExpanded)({ 'aria-label': 'Collapse Accordion' }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L63)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L63)*
 
 asAccordionIcon provides basic icon style for accordion title,
 as well as accessibility label support
@@ -484,7 +484,7 @@ ___
   addClasses('w-full'),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:80](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L80)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:80](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L80)*
 
 asAccordionLabel makes title label full
 
@@ -496,7 +496,7 @@ ___
   addClasses('flex items-center justify-between relative'),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:73](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L73)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:73](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L73)*
 
 asAccordionTitleWrapper positions accordion title wrapper
 
@@ -527,7 +527,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:142](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L142)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:142](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L142)*
 
 asNonExpandingAccordion provides default expanded accordion and
 prevents users from collapsing it
@@ -543,7 +543,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L99)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L99)*
 
 ___
 
@@ -563,7 +563,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/asTestableAccordion.tsx:16](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/asTestableAccordion.tsx#L16)*
+*Defined in [packages/bodiless-accordion/src/components/asTestableAccordion.tsx:16](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/asTestableAccordion.tsx#L16)*
 
 ___
 
@@ -579,7 +579,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:106](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L106)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:106](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L106)*
 
 ___
 
@@ -591,7 +591,7 @@ ___
   ),
 )
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L39)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tokens.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tokens.tsx#L39)*
 
 withDisableExpandOnClick stops accordion behavior on edit mode
 
@@ -601,7 +601,7 @@ withDisableExpandOnClick stops accordion behavior on edit mode
 
 ▸ **AccordionBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tsx#L29)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tsx#L29)*
 
 **Parameters:**
 
@@ -619,7 +619,7 @@ ___
 
 ▸ **AccordionBodyBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionBody.tsx#L34)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionBody.tsx#L34)*
 
 **Parameters:**
 
@@ -638,7 +638,7 @@ ___
 
 ▸ **AccordionKeyPressHandler**(`event`: KeyboardEvent, `context`: [AccordionContextType](globals.md#accordioncontexttype)): *void*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionKeyboard.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionKeyboard.tsx#L26)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionKeyboard.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionKeyboard.tsx#L26)*
 
 AccordionKeyPressHandler handles enter/space key press events to
 provide accessibility support for accordions expanding and collapsing behaviors
@@ -658,7 +658,7 @@ ___
 
 ▸ **AccordionProvider**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L38)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L38)*
 
 **Parameters:**
 
@@ -680,7 +680,7 @@ ___
 
 ▸ **AccordionTitleBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L43)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L43)*
 
 **Parameters:**
 
@@ -699,7 +699,7 @@ ___
 
 ▸ **asAccordionBody**(`Component`: "symbol" | "object" | "meta" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "cite" | "code" | "col" | "colgroup" | "data" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "form" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "label" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "slot" | "script" | "section" | "select" | "small" | "source" | "span" | "strong" | "style" | "sub" | "summary" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "title" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "pattern" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *AsAccordionBody*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionBody.tsx#L57)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionBody.tsx#L57)*
 
 **Parameters:**
 
@@ -715,7 +715,7 @@ ___
 
 ▸ **asAccordionTitle**(`Component`: "symbol" | "object" | "meta" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "cite" | "code" | "col" | "colgroup" | "data" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "form" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "label" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "slot" | "script" | "section" | "select" | "small" | "source" | "span" | "strong" | "style" | "sub" | "summary" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "title" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "pattern" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *AsAccordionTitle*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L78)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L78)*
 
 **Parameters:**
 
@@ -731,7 +731,7 @@ ___
 
 ▸ **asAccordionWrapper**(`Component`: "symbol" | "object" | "meta" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "cite" | "code" | "col" | "colgroup" | "data" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "form" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "label" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "slot" | "script" | "section" | "select" | "small" | "source" | "span" | "strong" | "style" | "sub" | "summary" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "title" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "pattern" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *AsAccordionWrapper*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionWrapper.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionWrapper.tsx#L20)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionWrapper.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionWrapper.tsx#L20)*
 
 **Parameters:**
 
@@ -747,7 +747,7 @@ ___
 
 ▸ **getAccordionMeta**(): *object*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L65)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L65)*
 
 **Returns:** *object*
 
@@ -763,7 +763,7 @@ ___
 
 ▸ **isAccordionCollapsible**(): *boolean*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L66)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L66)*
 
 **Returns:** *boolean*
 
@@ -773,7 +773,7 @@ ___
 
 ▸ **isAccordionContracted**(): *boolean*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L68)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L68)*
 
 **Returns:** *boolean*
 
@@ -783,7 +783,7 @@ ___
 
 ▸ **isAccordionExpanded**(): *boolean*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L67)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L67)*
 
 **Returns:** *boolean*
 
@@ -793,7 +793,7 @@ ___
 
 ▸ **isAccordionFocusedIn**(): *boolean*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L69)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L69)*
 
 **Returns:** *boolean*
 
@@ -803,7 +803,7 @@ ___
 
 ▸ **isAccordionFocusedOut**(): *boolean*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:70](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L70)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:70](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L70)*
 
 **Returns:** *boolean*
 
@@ -813,7 +813,7 @@ ___
 
 ▸ **useAccordionContext**(): *object*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionContext.tsx#L36)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionContext.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionContext.tsx#L36)*
 
 **Returns:** *object*
 
@@ -835,19 +835,19 @@ ___
 
 ### ▪ **AccordionBodyComponentsStart**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionBody.tsx#L26)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionBody.tsx#L26)*
 
 ###  Content
 
 • **Content**: *ComponentClass‹object & HTMLProps‹HTMLDivElement›, any› & object | FunctionComponent‹object & HTMLProps‹HTMLDivElement›› & object* = asAccordionBodyContent(Div)
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionBody.tsx#L28)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionBody.tsx#L28)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & HTMLProps‹HTMLDivElement›, any› & object | FunctionComponent‹object & HTMLProps‹HTMLDivElement›› & object* = asAccordionBodyWrapper(Div)
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionBody.tsx#L27)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionBody.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionBody.tsx#L27)*
 
 ___
 
@@ -855,25 +855,25 @@ ___
 
 ### ▪ **AccordionComponentsStart**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tsx#L23)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tsx#L23)*
 
 ###  Body
 
 • **Body**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = AccordionBodyClean
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tsx#L26)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tsx#L26)*
 
 ###  Title
 
 • **Title**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = AccordionTitleClean
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tsx#L25)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tsx#L25)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/Accordion.tsx#L24)*
+*Defined in [packages/bodiless-accordion/src/components/Accordion.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/Accordion.tsx#L24)*
 
 ___
 
@@ -881,25 +881,25 @@ ___
 
 ### ▪ **accordionTitleComponents**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L35)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L35)*
 
 ###  Icon
 
 • **Icon**: *ComponentClass‹object & HTMLProps‹HTMLSpanElement›, any› & object | FunctionComponent‹object & HTMLProps‹HTMLSpanElement›› & object* = asAccordionIcon(Span)
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L37)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L37)*
 
 ###  Label
 
 • **Label**: *ComponentClass‹object & HTMLProps‹HTMLDivElement›, any› & object | FunctionComponent‹object & HTMLProps‹HTMLDivElement›› & object* = asAccordionLabel(Div)
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L38)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L38)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & HTMLProps‹HTMLDivElement›, any› & object | FunctionComponent‹object & HTMLProps‹HTMLDivElement›› & object* = asAccordionTitleWrapper(Div)
 
-*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L36)*
+*Defined in [packages/bodiless-accordion/src/components/AccordionTitle.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/AccordionTitle.tsx#L36)*
 
 ___
 
@@ -907,34 +907,34 @@ ___
 
 ### ▪ **singleAccordionComponentStart**: *object*
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L39)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L39)*
 
 ###  Body
 
 • **Body**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L44)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L44)*
 
 ###  BodyWrapper
 
 • **BodyWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L43)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L43)*
 
 ###  Title
 
 • **Title**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = H2
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L42)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L42)*
 
 ###  TitleWrapper
 
 • **TitleWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L41)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L41)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L40)*
+*Defined in [packages/bodiless-accordion/src/components/SingleAccordion.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-accordion/src/components/SingleAccordion.tsx#L40)*

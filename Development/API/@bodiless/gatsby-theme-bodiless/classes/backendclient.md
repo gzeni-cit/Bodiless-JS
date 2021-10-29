@@ -48,7 +48,7 @@
 
 \+ **new BackendClient**(`backendClientConf?`: [BackendClientConf](../globals.md#backendclientconf)): *[BackendClient](backendclient.md)*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L28)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L28)*
 
 **Parameters:**
 
@@ -64,7 +64,7 @@ Name | Type |
 
 • **prefix**: *string*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L28)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L28)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 • **root**: *string*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L26)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L26)*
 
 ## Methods
 
@@ -80,7 +80,7 @@ ___
 
 ▸ **amend**(`paths`: string[], `files`: string[]): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:145](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L145)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:145](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L145)*
 
 **Parameters:**
 
@@ -97,7 +97,7 @@ ___
 
 ▸ **clonePage**(`origin`: string, `destination`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:104](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L104)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:104](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L104)*
 
 **Parameters:**
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **commit**(`message`: string, `directories`: string[], `paths`: string[], `files`: string[], `author?`: undefined | string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L113)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L113)*
 
 **Parameters:**
 
@@ -134,7 +134,7 @@ ___
 
 ▸ **delete**(`resourcePath`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L53)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L53)*
 
 **Parameters:**
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **deletePage**(`path$`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L94)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L94)*
 
 **Parameters:**
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **deletePath**(`resourcePath`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L62)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L62)*
 
 **Parameters:**
 
@@ -182,7 +182,7 @@ ___
 
 ▸ **directoryChild**(`path$`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L99)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L99)*
 
 **Parameters:**
 
@@ -198,7 +198,7 @@ ___
 
 ▸ **get**(`resourcePath`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L45)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L45)*
 
 **Parameters:**
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **getChanges**(): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:163](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L163)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:163](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L163)*
 
 **Returns:** *Promise‹AxiosResponse‹any››*
 
@@ -224,7 +224,7 @@ ___
 
 ▸ **getConflicts**(`target?`: undefined | string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:167](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L167)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:167](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L167)*
 
 **Parameters:**
 
@@ -240,7 +240,7 @@ ___
 
 ▸ **getLatestCommits**(): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:133](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L133)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:133](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L133)*
 
 **Returns:** *Promise‹AxiosResponse‹any››*
 
@@ -250,7 +250,7 @@ ___
 
 ▸ **getPath**(`resourcePath`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:72](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L72)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:72](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L72)*
 
 **Parameters:**
 
@@ -266,7 +266,7 @@ ___
 
 ▸ **getSetList**(): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:159](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L159)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:159](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L159)*
 
 **Returns:** *Promise‹AxiosResponse‹any››*
 
@@ -276,7 +276,7 @@ ___
 
 ▸ **log**(`data`: any): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L67)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L67)*
 
 **Parameters:**
 
@@ -292,7 +292,7 @@ ___
 
 ▸ **mergeMaster**(): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:172](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L172)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:172](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L172)*
 
 **Returns:** *Promise‹AxiosResponse‹any››*
 
@@ -302,7 +302,7 @@ ___
 
 ▸ **post**(`resourcePath`: string, `data`: any): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L49)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L49)*
 
 **Parameters:**
 
@@ -319,7 +319,7 @@ ___
 
 ▸ **pull**(): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:137](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L137)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:137](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L137)*
 
 **Returns:** *Promise‹AxiosResponse‹any››*
 
@@ -329,7 +329,7 @@ ___
 
 ▸ **reset**(): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:141](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L141)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:141](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L141)*
 
 **Returns:** *Promise‹AxiosResponse‹any››*
 
@@ -339,7 +339,7 @@ ___
 
 ▸ **saveFile**(`file`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:77](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L77)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:77](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L77)*
 
 **Parameters:**
 
@@ -355,7 +355,7 @@ ___
 
 ▸ **savePage**(`path$`: string, `template?`: undefined | string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L84)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L84)*
 
 **Parameters:**
 
@@ -372,7 +372,7 @@ ___
 
 ▸ **savePath**(`resourcePath`: string, `data`: any): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L57)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L57)*
 
 **Parameters:**
 
@@ -389,7 +389,7 @@ ___
 
 ▸ **setCurrent**(`name`: string): *Promise‹AxiosResponse‹any››*
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:155](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L155)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/BackendClient.ts:155](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/BackendClient.ts#L155)*
 
 **Parameters:**
 

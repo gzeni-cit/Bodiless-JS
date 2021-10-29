@@ -53,7 +53,7 @@
 
 \+ **new DefaultContentNode**(`actions`: [Actions](../globals.md#actions), `getters`: [Getters](../globals.md#getters), `path`: [Path](../globals.md#path)): *[DefaultContentNode](defaultcontentnode.md)*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:102](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L102)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:102](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L102)*
 
 **Parameters:**
 
@@ -71,7 +71,7 @@ Name | Type |
 
 • **actions**: *[Actions](../globals.md#actions)*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:98](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L98)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:98](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L98)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • **getters**: *[Getters](../globals.md#getters)*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:100](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L100)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:100](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L100)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **path**: *string[]*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:102](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L102)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:102](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L102)*
 
 ## Accessors
 
@@ -95,7 +95,7 @@ ___
 
 • **get baseResourcePath**(): *string*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:130](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L130)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:130](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L130)*
 
 **Returns:** *string*
 
@@ -105,7 +105,7 @@ ___
 
 • **get data**(): *D*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:120](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L120)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:120](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L120)*
 
 **Returns:** *D*
 
@@ -115,7 +115,7 @@ ___
 
 • **get hasError**(): *hasError*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:152](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L152)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:152](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L152)*
 
 **Returns:** *hasError*
 
@@ -125,7 +125,7 @@ ___
 
 • **get keys**(): *string[]*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:147](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L147)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:147](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L147)*
 
 **Returns:** *string[]*
 
@@ -135,7 +135,7 @@ ___
 
 • **get pagePath**(): *string*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:125](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L125)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:125](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L125)*
 
 **Returns:** *string*
 
@@ -145,7 +145,7 @@ ___
 
 ▸ **child**‹**E**›(`path`: [Path](../globals.md#path)): *[DefaultContentNode](defaultcontentnode.md)‹E›*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:115](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L115)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:115](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L115)*
 
 **Type parameters:**
 
@@ -165,7 +165,7 @@ ___
 
 ▸ **delete**(`path?`: [Path](../globals.md#path)): *void*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:140](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L140)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:140](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L140)*
 
 **Parameters:**
 
@@ -181,7 +181,7 @@ ___
 
 ▸ **getActions**(): *object*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:166](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L166)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:166](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L166)*
 
 **Returns:** *object*
 
@@ -195,7 +195,7 @@ ___
 
 ▸ **getGetters**(): *object*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:162](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L162)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:162](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L162)*
 
 **Returns:** *object*
 
@@ -215,7 +215,7 @@ ___
 
 ▸ **peer**‹**E**›(`path`: [Path](../globals.md#path)): *[DefaultContentNode](defaultcontentnode.md)‹E›*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:111](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L111)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:111](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L111)*
 
 **Type parameters:**
 
@@ -235,7 +235,7 @@ ___
 
 ▸ **proxy**(`processors`: [Processors](../globals.md#processors)‹D›): *[ContentNode](../globals.md#contentnode)‹D›*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:157](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L157)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:157](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L157)*
 
 **Parameters:**
 
@@ -251,7 +251,7 @@ ___
 
 ▸ **setData**(`dataObj`: D): *void*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:135](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L135)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:135](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L135)*
 
 **Parameters:**
 
@@ -267,7 +267,7 @@ ___
 
 ▸ **dummy**(`path`: string, `initialData`: object): *[DefaultContentNode](defaultcontentnode.md)‹object›*
 
-*Defined in [packages/bodiless-core/src/ContentNode.ts:170](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-core/src/ContentNode.ts#L170)*
+*Defined in [packages/bodiless-core/src/ContentNode.ts:170](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-core/src/ContentNode.ts#L170)*
 
 **Parameters:**
 

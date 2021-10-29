@@ -103,7 +103,7 @@
 
 Ƭ **CategoryListContextType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L23)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L23)*
 
 #### Type declaration:
 
@@ -117,7 +117,7 @@ ___
 
 Ƭ **DefaultTagProps**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:206](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L206)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:206](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L206)*
 
 #### Type declaration:
 
@@ -137,7 +137,7 @@ ___
 
 Ƭ **FBGContextOptions**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L78)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L78)*
 
 #### Type declaration:
 
@@ -153,7 +153,7 @@ ___
 
 Ƭ **FBGContextType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:101](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L101)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:101](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L101)*
 
 Type of the context which supports filtering by tags/groups.
 
@@ -203,7 +203,7 @@ ___
 
 Ƭ **FilterByGroupBaseProps**: *Omit‹[FilterByGroupProps](globals.md#filterbygroupprops), "design"› & DesignableComponentsProps‹[FilterByGroupComponents](globals.md#filterbygroupcomponents)›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L36)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L36)*
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 Ƭ **FilterByGroupComponents**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L26)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L26)*
 
 #### Type declaration:
 
@@ -239,7 +239,7 @@ ___
 
 Ƭ **FilterByGroupProps**: *object & DesignableProps‹[FilterByGroupComponents](globals.md#filterbygroupcomponents)›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L52)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L52)*
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 Ƭ **FilterByGroupStoreSettings**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L44)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L44)*
 
 #### Type declaration:
 
@@ -259,7 +259,7 @@ ___
 
 Ƭ **FilterComponents**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L38)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L38)*
 
 #### Type declaration:
 
@@ -273,9 +273,9 @@ ___
 
 Ƭ **FilterProps**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L50)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L50)*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:205](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L205)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:205](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L205)*
 
 #### Type declaration:
 
@@ -291,7 +291,7 @@ ___
 
 Ƭ **FilterTagType**: *[TagType](globals.md#tagtype) & object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:93](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L93)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:93](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L93)*
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 Ƭ **FilteredItemType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L66)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:66](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L66)*
 
 #### Type declaration:
 
@@ -315,7 +315,7 @@ ___
 
 Ƭ **InputAttributes**: *object*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/types.tsx#L21)*
+*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/types.tsx#L21)*
 
 #### Type declaration:
 
@@ -327,7 +327,7 @@ ___
 
 Ƭ **NodeTagType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L62)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L62)*
 
 #### Type declaration:
 
@@ -339,7 +339,7 @@ ___
 
 Ƭ **RegisterItem**: *function*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:72](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L72)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:72](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L72)*
 
 #### Type declaration:
 
@@ -357,7 +357,7 @@ ___
 
 Ƭ **RegisterItemContextType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:74](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L74)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:74](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L74)*
 
 #### Type declaration:
 
@@ -369,7 +369,7 @@ ___
 
 Ƭ **RegisterSuggestionsProps**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:89](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L89)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:89](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L89)*
 
 #### Type declaration:
 
@@ -383,7 +383,7 @@ ___
 
 Ƭ **SuggestionsRefType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L84)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L84)*
 
 #### Type declaration:
 
@@ -397,7 +397,7 @@ ___
 
 Ƭ **TagButtonProps**: *object*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/types.tsx#L25)*
+*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/types.tsx#L25)*
 
 #### Type declaration:
 
@@ -429,7 +429,7 @@ ___
 
 Ƭ **TagButtonType**: *EditButtonOptions‹[TagButtonProps](globals.md#tagbuttonprops) & HTMLProps‹HTMLElement›, [TagsNodeType](globals.md#tagsnodetype)›*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L31)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L31)*
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 Ƭ **TagTitleComponents**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L43)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L43)*
 
 #### Type declaration:
 
@@ -455,7 +455,7 @@ ___
 
 Ƭ **TagTitleProps**: *object & DesignableComponentsProps‹[TagTitleComponents](globals.md#tagtitlecomponents)›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L57)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L57)*
 
 ___
 
@@ -463,7 +463,7 @@ ___
 
 Ƭ **TagType**: *Omit‹BaseTagType, "id"› & object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L20)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L20)*
 
 ___
 
@@ -471,7 +471,7 @@ ___
 
 Ƭ **TagsNodeType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/types.tsx#L17)*
+*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/types.tsx#L17)*
 
 #### Type declaration:
 
@@ -483,7 +483,7 @@ ___
 
 Ƭ **UseTagButtonOverrides**: *function*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L29)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L29)*
 
 #### Type declaration:
 
@@ -501,7 +501,7 @@ ___
 
 Ƭ **WithFilterByTagsProps**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:150](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L150)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/types.tsx:150](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/types.tsx#L150)*
 
 Type of the props expected by a filtereable item.
 
@@ -517,7 +517,7 @@ ___
 
 Ƭ **WithRegisterSuggestionsType**: *object*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/types.tsx#L39)*
+*Defined in [packages/bodiless-filtering/src/TagButton/types.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/types.tsx#L39)*
 
 #### Type declaration:
 
@@ -531,7 +531,7 @@ ___
 
 • **CategoryListContext**: *Context‹object›* = createContext<CategoryListContextType>({})
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L28)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L28)*
 
 ___
 
@@ -544,7 +544,7 @@ ___
   withFilterByGroupContext,
 )(FilterByGroupBase)
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L84)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L84)*
 
 ___
 
@@ -563,7 +563,7 @@ ___
   filtersInitialized: false,
 })
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L48)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L48)*
 
 ___
 
@@ -575,7 +575,7 @@ ___
   withNodeKey('filter'),
 )('ul')
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:251](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L251)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:251](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L251)*
 
 ___
 
@@ -585,7 +585,7 @@ ___
   registerItem: () => undefined,
 })
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L40)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L40)*
 
 ___
 
@@ -593,7 +593,7 @@ ___
 
 • **TAG_ANY_KEY**: *"any"* = "any"
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L21)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L21)*
 
 ___
 
@@ -601,7 +601,7 @@ ___
 
 • **TAG_ANY_LABEL**: *"- Any -"* = "- Any -"
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx#L24)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx#L24)*
 
 ___
 
@@ -643,7 +643,7 @@ ___
   designable(tagTitleComponentsStart, 'TagTitle'),
 )(TagTitleBase)
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:127](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L127)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:127](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L127)*
 
 ___
 
@@ -651,7 +651,7 @@ ___
 
 • **TestableFilterByGroup**: *any* = flow(asTestableFilterByGroup)(FilterByGroupClean)
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx#L47)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx#L47)*
 
 ___
 
@@ -664,7 +664,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L41)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L41)*
 
 ___
 
@@ -698,7 +698,7 @@ ___
   ),
 )
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:177](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L177)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:177](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L177)*
 
 ___
 
@@ -711,7 +711,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L34)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L34)*
 
 ___
 
@@ -731,7 +731,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:163](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L163)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:163](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L163)*
 
 ___
 
@@ -754,7 +754,7 @@ ___
   ),
 )
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L56)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L56)*
 
 ___
 
@@ -785,7 +785,7 @@ ___
   }),
 })
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx#L22)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupTestable.tsx#L22)*
 
 ___
 
@@ -793,7 +793,7 @@ ___
 
 • **ifTagsNotSelected**: *function* = flowIf(negate(useToggleByTags))
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:86](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L86)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:86](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L86)*
 
 Flow toggle to apply HOCs only if an item does not have all selected tags.
 
@@ -862,7 +862,7 @@ ___
 
 • **ifTagsSelected**: *function* = flowIf(useToggleByTags)
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:81](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L81)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:81](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L81)*
 
 Flow toggle to apply HOCs only if an item has all selected tags.
 
@@ -935,7 +935,7 @@ ___
   }),
 })
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts#L23)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts#L23)*
 
 ___
 
@@ -952,7 +952,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:73](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L73)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:73](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L73)*
 
 ___
 
@@ -969,7 +969,7 @@ ___
   }),
 )
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L84)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L84)*
 
 ___
 
@@ -981,7 +981,7 @@ ___
   }),
 })
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts#L29)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.token.ts#L29)*
 
 ## Functions
 
@@ -989,7 +989,7 @@ ___
 
 ▸ **FBGRegisterItemsProvider**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:148](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L148)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:148](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L148)*
 
 **Parameters:**
 
@@ -1008,7 +1008,7 @@ ___
 
 ▸ **FilterByGroupBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L39)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L39)*
 
 **Parameters:**
 
@@ -1030,7 +1030,7 @@ ___
 
 ▸ **FilterByGroupProvider**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L85)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L85)*
 
 **Parameters:**
 
@@ -1051,7 +1051,7 @@ ___
 
 ▸ **TagTitleBase**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L79)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L79)*
 
 **Parameters:**
 
@@ -1072,7 +1072,7 @@ ___
 
 ▸ **asFilterableByGroup**(`nodeKey`: string): *function & object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/asFilterableByGroup.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/asFilterableByGroup.tsx#L21)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/asFilterableByGroup.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/asFilterableByGroup.tsx#L21)*
 
 **Parameters:**
 
@@ -1088,7 +1088,7 @@ ___
 
 ▸ **asTaggableItem**(`nodeKey?`: undefined | string, `defaultData`: object, `useOverrides?`: [UseTagButtonOverrides](globals.md#usetagbuttonoverrides)): *function & object*
 
-*Defined in [packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx#L36)*
+*Defined in [packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx#L36)*
 
 **Parameters:**
 
@@ -1110,7 +1110,7 @@ ___
 
 ▸ **readTagsFromQueryParams**(): *[Tag](classes/tag.md)‹›[]*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L48)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L48)*
 
 **Returns:** *[Tag](classes/tag.md)‹›[]*
 
@@ -1120,7 +1120,7 @@ ___
 
 ▸ **updateUrlQueryParams**(`tags`: [FilterTagType](globals.md#filtertagtype)[]): *void*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L59)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L59)*
 
 **Parameters:**
 
@@ -1136,7 +1136,7 @@ ___
 
 ▸ **useCategoryListContext**(): *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L29)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L29)*
 
 **Returns:** *object*
 
@@ -1150,7 +1150,7 @@ ___
 
 ▸ **useFilterByGroupContext**(): *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L68)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L68)*
 
 Hook which provides access to the current state of the filters, an methods
 for registering tag autocomplete suggestions and selecting/unselecting tags.
@@ -1203,7 +1203,7 @@ ___
 
 ▸ **useFilterByGroupStore**(`settings`: [FilterByGroupStoreSettings](globals.md#filterbygroupstoresettings)): *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L99)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L99)*
 
 **Parameters:**
 
@@ -1231,7 +1231,7 @@ ___
 
 ▸ **useIsFilterTagSelected**(): *boolean*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:76](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L76)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:76](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L76)*
 
 Hook which can be used to determine whether the tag is selected or not.
 
@@ -1245,7 +1245,7 @@ ___
 
 ▸ **useRefineButtonProps**(): *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L48)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/token.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/token.tsx#L48)*
 
 **Returns:** *object*
 
@@ -1259,7 +1259,7 @@ ___
 
 ▸ **useRegisterItem**(`item`: [FilteredItemType](globals.md#filtereditemtype)): *void*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:249](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L249)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:249](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L249)*
 
 Hook which should be used in a filterable item to register itself on effect.
 
@@ -1288,7 +1288,7 @@ ___
 
 ▸ **useStateCallback**(`initialState`: any): *any[]*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L78)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:78](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L78)*
 
 **Parameters:**
 
@@ -1304,7 +1304,7 @@ ___
 
 ▸ **useTagsAccessors**(): *object*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/TagModel.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/TagModel.tsx#L19)*
+*Defined in [packages/bodiless-filtering/src/TagButton/TagModel.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/TagModel.tsx#L19)*
 
 **Returns:** *object*
 
@@ -1316,7 +1316,7 @@ ___
 
 ▸ **useTagsAccessors**(): *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx#L26)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterModel.tsx#L26)*
 
 **Returns:** *object*
 
@@ -1328,7 +1328,7 @@ ___
 
 ▸ **useToggleByTags**(`__namedParameters`: object): *boolean*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L41)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L41)*
 
 **Parameters:**
 
@@ -1348,7 +1348,7 @@ ___
 
 ▸ **withCategoryListContextProvider**(`Component`: ComponentOrTag‹any›): *WithCategoryListContextProvider*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L31)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/CategoryListContext.tsx#L31)*
 
 **Parameters:**
 
@@ -1364,7 +1364,7 @@ ___
 
 ▸ **withFilterByGroupContext**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "pattern" | "span" | "summary" | "slot" | "style" | "title" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *(Anonymous function)*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:186](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L186)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:186](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L186)*
 
 HOC which provides the context necessary to enable filtering by groups/tags. Must enclose
 the filters and all filterable items.
@@ -1385,7 +1385,7 @@ ___
 
 ▸ **withFilterByTags**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "pattern" | "span" | "summary" | "slot" | "style" | "title" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *FunctionComponent‹any›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:92](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L92)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx:92](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/withFilterByTags.tsx#L92)*
 
 HOC to make an item filterable by tags. Must be applied with access to the
 node containing the item's tags, and within the FilterByGroup context.
@@ -1404,7 +1404,7 @@ ___
 
 ▸ **withFilterDesignTransformer**‹**P**›(`Component`: ComponentOrTag‹P & [FilterProps](globals.md#filterprops)›): *WithFilterDesignTransformer*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:212](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L212)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:212](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L212)*
 
 **Type parameters:**
 
@@ -1424,7 +1424,7 @@ ___
 
 ▸ **withRegisteredTags**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "pattern" | "span" | "summary" | "slot" | "style" | "title" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *WithRegisteredTags*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:97](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L97)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:97](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L97)*
 
 **Parameters:**
 
@@ -1440,7 +1440,7 @@ ___
 
 ▸ **withTagButton**(`useOverrides?`: [UseTagButtonOverrides](globals.md#usetagbuttonoverrides)): *function & object*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:111](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L111)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:111](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L111)*
 
 **Parameters:**
 
@@ -1456,7 +1456,7 @@ ___
 
 ▸ **withTagProps**(`suggestionOptions?`: [TagButtonProps](globals.md#tagbuttonprops)): *Injector‹[DefaultTagProps](globals.md#defaulttagprops)›*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:212](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L212)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx:212](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupContext.tsx#L212)*
 
 **Parameters:**
 
@@ -1472,7 +1472,7 @@ ___
 
 ▸ **withUnselectOnDelete**(`Component`: "symbol" | "object" | "cite" | "data" | "form" | "label" | "pattern" | "span" | "summary" | "slot" | "style" | "title" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "code" | "col" | "colgroup" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "script" | "section" | "select" | "small" | "source" | "strong" | "sub" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *(Anonymous function)*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L68)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L68)*
 
 **Parameters:**
 
@@ -1488,61 +1488,61 @@ Name | Type |
 
 ### ▪ **FilterByGroupComponentsStart**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L24)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L24)*
 
 ###  ContentWrapper
 
 • **ContentWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L29)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L29)*
 
 ###  Filter
 
 • **Filter**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = FilterClean
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L32)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L32)*
 
 ###  FilterBody
 
 • **FilterBody**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L31)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L31)*
 
 ###  FilterHeader
 
 • **FilterHeader**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L27)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L27)*
 
 ###  FilterTitle
 
 • **FilterTitle**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = H3
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L28)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L28)*
 
 ###  FilterWrapper
 
 • **FilterWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L26)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L26)*
 
 ###  RefineButton
 
 • **RefineButton**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Button
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L33)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L33)*
 
 ###  ResetButton
 
 • **ResetButton**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Button
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L30)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L30)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L25)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupClean.tsx#L25)*
 
 ___
 
@@ -1550,13 +1550,13 @@ ___
 
 ### ▪ **emptyValue**: *object*
 
-*Defined in [packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx#L26)*
+*Defined in [packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx#L26)*
 
 ###  tags
 
 • **tags**: *never[]* = []
 
-*Defined in [packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx#L27)*
+*Defined in [packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/Taggable/asTaggableItem.tsx#L27)*
 
 ___
 
@@ -1564,49 +1564,49 @@ ___
 
 ### ▪ **tagButtonOptions**: *object*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L34)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L34)*
 
 ###  global
 
 • **global**: *false* = false
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:93](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L93)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:93](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L93)*
 
 ###  groupLabel
 
 • **groupLabel**: *string* = "Filter"
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L37)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L37)*
 
 ###  icon
 
 • **icon**: *string* = "local_offer"
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L35)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L35)*
 
 ###  label
 
 • **label**: *string* = "Groups"
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L36)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L36)*
 
 ###  local
 
 • **local**: *true* = true
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L94)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L94)*
 
 ###  name
 
 • **name**: *string* = "Tag"
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L38)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L38)*
 
 ###  renderForm
 
 ▸ **renderForm**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L39)*
+*Defined in [packages/bodiless-filtering/src/TagButton/withTagButton.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/TagButton/withTagButton.tsx#L39)*
 
 **Parameters:**
 
@@ -1624,28 +1624,28 @@ ___
 
 ### ▪ **tagTitleComponentsStart**: *object*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:61](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L61)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:61](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L61)*
 
 ###  FilterGroupItemInput
 
 • **FilterGroupItemInput**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Input
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L63)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L63)*
 
 ###  FilterGroupItemLabel
 
 • **FilterGroupItemLabel**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Label
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L65)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L65)*
 
 ###  FilterGroupItemPlaceholder
 
 • **FilterGroupItemPlaceholder**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Label
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:64](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L64)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:64](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L64)*
 
 ###  FilterInputWrapper
 
 • **FilterInputWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/c57f63f7/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L62)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/Filter.tsx:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/Filter.tsx#L62)*
