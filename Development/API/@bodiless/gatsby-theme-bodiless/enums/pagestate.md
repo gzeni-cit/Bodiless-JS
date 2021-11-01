@@ -17,7 +17,7 @@
 
 • **Complete**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:12](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L12)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:12](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L12)*
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 • **Errored**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:13](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L13)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:13](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L13)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **Init**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:10](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L10)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:10](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L10)*
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 • **Pending**:
 
-*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:11](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L11)*
+*Defined in [packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts:11](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/gatsby-theme-bodiless/src/dist/PageOperations/types.ts#L11)*

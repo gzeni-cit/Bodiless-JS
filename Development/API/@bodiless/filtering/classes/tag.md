@@ -33,7 +33,7 @@
 
 \+ **new Tag**(`id`: string, `name`: string, `categoryId?`: undefined | string, `categoryName?`: undefined | string): *[Tag](tag.md)*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L30)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L30)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ Name | Type |
 
 • **categoryId**: *string*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L26)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L26)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **categoryName**: *string*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L30)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L30)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L24)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L24)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L28)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L28)*
 
 ## Methods
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **isEqual**(`tag`: [TagType](../globals.md#tagtype)): *boolean*
 
-*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L39)*
+*Defined in [packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-filtering/src/FilterByGroup/FilterByGroupStore.ts#L39)*
 
 **Parameters:**
 

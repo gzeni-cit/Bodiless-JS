@@ -209,7 +209,7 @@
 
 Ƭ **CTWM**: *[ComponentWithMeta](globals.md#componentwithmeta)*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L24)*
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 Ƭ **Categories**: *object*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L32)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L32)*
 
 #### Type declaration:
 
@@ -229,7 +229,7 @@ ___
 
 Ƭ **ComponentSelectorProps**: *[ItemListProps](globals.md#itemlistprops) & object*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L17)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L17)*
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 Ƭ **ComponentSelectorUI**: *Partial‹[FinalUI](globals.md#finalui)›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:155](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L155)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:155](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L155)*
 
 ___
 
@@ -245,7 +245,7 @@ ___
 
 Ƭ **ComponentWithMeta**: *ComponentType‹P› & [Meta](globals.md#meta)*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L59)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L59)*
 
 ___
 
@@ -253,7 +253,7 @@ ___
 
 Ƭ **ComponentWithPartialMeta**: *ComponentType‹P› & Partial‹[Meta](globals.md#meta)›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:60](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L60)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:60](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L60)*
 
 ___
 
@@ -261,7 +261,7 @@ ___
 
 Ƭ **Config**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L50)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L50)*
 
 #### Type declaration:
 
@@ -277,7 +277,7 @@ ___
 
 Ƭ **ContentLibraryOptions**: *object*
 
-*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L27)*
+*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L27)*
 
 #### Type declaration:
 
@@ -301,7 +301,7 @@ ___
 
 Ƭ **CreateFlowContainerItem**: *function*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L28)*
+*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L28)*
 
 #### Type declaration:
 
@@ -319,7 +319,7 @@ ___
 
 Ƭ **CreateFlowContainerItemArgs**: *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L23)*
+*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L23)*
 
 #### Type declaration:
 
@@ -335,7 +335,7 @@ ___
 
 Ƭ **DeleteFlowContainerItem**: *function*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L33)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L33)*
 
 #### Type declaration:
 
@@ -353,7 +353,7 @@ ___
 
 Ƭ **DeserializeElement**: *function*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L35)*
+*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L35)*
 
 #### Type declaration:
 
@@ -371,7 +371,7 @@ ___
 
 Ƭ **DeserializeElementArgs**: *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L31)*
+*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L31)*
 
 #### Type declaration:
 
@@ -385,7 +385,7 @@ ___
 
 Ƭ **Deserializer**: *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/deserializer.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/deserializer.ts#L21)*
+*Defined in [packages/bodiless-layouts/src/deserializers/deserializer.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/deserializer.ts#L21)*
 
 #### Type declaration:
 
@@ -411,7 +411,7 @@ ___
 
 Ƭ **Direction**: *[RTL](enums/languagedirection.md#rtl) | [LTR](enums/languagedirection.md#ltr)*
 
-*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L26)*
+*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L26)*
 
 ___
 
@@ -419,7 +419,7 @@ ___
 
 Ƭ **EditFlowContainerProps**: *DesignableComponentsProps & HTMLProps‹HTMLDivElement› & object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L29)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L29)*
 
 ___
 
@@ -427,13 +427,13 @@ ___
 
 Ƭ **FinalUI**: *object*
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L21)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L21)*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L33)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L33)*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:80](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L80)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:80](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L80)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L24)*
 
 #### Type declaration:
 
@@ -445,7 +445,7 @@ ___
 
 Ƭ **FlattenElement**: *function*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L25)*
+*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L25)*
 
 #### Type declaration:
 
@@ -463,7 +463,7 @@ ___
 
 Ƭ **FlattenElementArgs**: *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L17)*
+*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L17)*
 
 #### Type declaration:
 
@@ -477,7 +477,7 @@ ___
 
 Ƭ **FlattenedElement**: *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L21)*
+*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L21)*
 
 #### Type declaration:
 
@@ -491,7 +491,7 @@ ___
 
 Ƭ **FlowContainerBaseProps**: *[EditFlowContainerProps](globals.md#editflowcontainerprops) & WithNodeProps*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L52)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L52)*
 
 ___
 
@@ -499,7 +499,7 @@ ___
 
 Ƭ **FlowContainerComponentProps**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:54](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L54)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:54](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L54)*
 
 #### Type declaration:
 
@@ -513,7 +513,7 @@ ___
 
 Ƭ **FlowContainerComponents**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:87](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L87)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:87](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L87)*
 
 #### Type declaration:
 
@@ -527,9 +527,9 @@ ___
 
 Ƭ **FlowContainerData**: *object & [FlowContainerItemData](globals.md#flowcontaineritemdata)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L26)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L26)*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L23)*
+*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L23)*
 
 ___
 
@@ -537,7 +537,7 @@ ___
 
 Ƭ **FlowContainerDataHandlers**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L34)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L34)*
 
 #### Type declaration:
 
@@ -557,7 +557,7 @@ ___
 
 Ƭ **FlowContainerItemData**: *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/deserializer.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/deserializer.ts#L17)*
+*Defined in [packages/bodiless-layouts/src/deserializers/deserializer.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/deserializer.ts#L17)*
 
 #### Type declaration:
 
@@ -569,7 +569,7 @@ ___
 
 Ƭ **FlowContainerItemHandlers**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L41)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L41)*
 
 #### Type declaration:
 
@@ -591,7 +591,7 @@ ___
 
 Ƭ **FlowContainerProps**: *Omit‹[FlowContainerBaseProps](globals.md#flowcontainerbaseprops), "components"› & DesignableProps*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L53)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L53)*
 
 ___
 
@@ -599,7 +599,7 @@ ___
 
 Ƭ **FlowContainerWrapperProps**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:83](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L83)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:83](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L83)*
 
 #### Type declaration:
 
@@ -611,7 +611,7 @@ ___
 
 Ƭ **Handlers**: *[FlowContainerDataHandlers](globals.md#flowcontainerdatahandlers) & [FlowContainerItemHandlers](globals.md#flowcontaineritemhandlers)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L29)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L29)*
 
 ___
 
@@ -619,7 +619,7 @@ ___
 
 Ƭ **InsertContentNode**: *function*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L22)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L22)*
 
 #### Type declaration:
 
@@ -639,7 +639,7 @@ ___
 
 Ƭ **ItemListProps**: *object*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L65)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:65](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L65)*
 
 Props passed to the list of items within the component selector.
 
@@ -659,7 +659,7 @@ ___
 
 Ƭ **ListData**: *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/listDeserializer.ts:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/listDeserializer.ts#L19)*
+*Defined in [packages/bodiless-layouts/src/deserializers/listDeserializer.ts:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/listDeserializer.ts#L19)*
 
 #### Type declaration:
 
@@ -671,7 +671,7 @@ ___
 
 Ƭ **Meta**: *object*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L40)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/types.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/types.tsx#L40)*
 
 Component metadata used to search, filter and display
 information about a component,
@@ -692,7 +692,7 @@ ___
 
 Ƭ **OnFlowContainerItemResize**: *function*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L29)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L29)*
 
 #### Type declaration:
 
@@ -711,9 +711,9 @@ ___
 
 Ƭ **Props**: *object*
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L39)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L39)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L33)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L33)*
 
 #### Type declaration:
 
@@ -725,7 +725,7 @@ ___
 
 Ƭ **SetFlowContainerItems**: *function*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L27)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L27)*
 
 #### Type declaration:
 
@@ -743,7 +743,7 @@ ___
 
 Ƭ **SlateSortableResizableProps**: *object*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L44)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L44)*
 
 #### Type declaration:
 
@@ -781,7 +781,7 @@ ___
 
 Ƭ **SnapData**: *function*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L34)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L34)*
 
 #### Type declaration:
 
@@ -799,7 +799,7 @@ ___
 
 Ƭ **SnapDataProps**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L23)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L23)*
 
 #### Type declaration:
 
@@ -815,7 +815,7 @@ ___
 
 Ƭ **SnapDataReturn**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L28)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L28)*
 
 #### Type declaration:
 
@@ -831,7 +831,7 @@ ___
 
 Ƭ **SortableChildProps**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L71)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L71)*
 
 #### Type declaration:
 
@@ -861,7 +861,7 @@ ___
 
 Ƭ **SortableListProps**: *PropsWithChildren‹object›*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L30)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L30)*
 
 ___
 
@@ -869,7 +869,7 @@ ___
 
 Ƭ **SortableResizableProps**: *Omit‹[SlateSortableResizableProps](globals.md#slatesortableresizableprops), "useGetMenuOptions"›*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L79)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L79)*
 
 ___
 
@@ -877,7 +877,7 @@ ___
 
 Ƭ **Tuple**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L18)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L18)*
 
 #### Type declaration:
 
@@ -893,13 +893,13 @@ ___
 
 Ƭ **UI**: *Partial‹[FinalUI](globals.md#finalui)›*
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L28)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L28)*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L37)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L37)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L24)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L24)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L28)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L28)*
 
 ___
 
@@ -907,7 +907,7 @@ ___
 
 Ƭ **UpdateFlowContainerItem**: *function*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L28)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L28)*
 
 #### Type declaration:
 
@@ -925,7 +925,7 @@ ___
 
 Ƭ **WidthClassTuple**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/types.ts#L47)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/types.ts:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/types.ts#L47)*
 
 #### Type declaration:
 
@@ -941,7 +941,7 @@ ___
 
 Ƭ **WithTitleFromTermsProps**: *object*
 
-*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:9](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L9)*
+*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:9](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L9)*
 
 Type of the options for `withTitleFromTerms`
 
@@ -961,7 +961,7 @@ ___
 
 Ƭ **WithTuples**: *function*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L33)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L33)*
 
 #### Type declaration:
 
@@ -979,7 +979,7 @@ Name | Type |
 
 • **BASE_URL_NO_PREFIX_SLASH**: *string* = COMPONENTS_PREVIEW_BASE_URL.split('/').filter(Boolean).join('/')
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L21)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L21)*
 
 ___
 
@@ -987,7 +987,7 @@ ___
 
 • **COMPONENTS_PREVIEW_BASE_URL**: *string* = "/images/component-previews/"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/config.ts:16](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/config.ts#L16)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/config.ts:16](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/config.ts#L16)*
 
 Copyright © 2019 Johnson & Johnson
 
@@ -1007,7 +1007,7 @@ ___
 
 • **ChildNodeProvider**: *ComponentClass‹any, any› & object | FunctionComponent‹any› & object* = withNode<PropsWithChildren<{}>, any>(React.Fragment)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L36)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L36)*
 
 ___
 
@@ -1017,7 +1017,7 @@ ___
   mode: defaultMode,
 })
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L27)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L27)*
 
 ___
 
@@ -1025,7 +1025,7 @@ ___
 
 • **FALLBACK_SNAP_CLASSNAME**: *"w-full"* = "w-full"
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx#L24)*
 
 ___
 
@@ -1033,7 +1033,7 @@ ___
 
 • **FC_ITEM_CONTEXT_TYPE**: *"flow-container-item"* = "flow-container-item"
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L31)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L31)*
 
 ___
 
@@ -1041,7 +1041,7 @@ ___
 
 • **FlowContainer**: *ComponentClass‹object & object, any› | FunctionComponent‹object & object›* = withNode(FlowContainerDesignable) as ComponentType<FlowContainerProps>
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/index.tsx#L49)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/index.tsx#L49)*
 
 ___
 
@@ -1054,7 +1054,7 @@ ___
   }),
 )(FlowContainerBasic)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/index.tsx#L38)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/index.tsx#L38)*
 
 ___
 
@@ -1065,7 +1065,7 @@ ___
   withLocalContextMenu,
 )(FlowContainerEmpty$)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L57)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L57)*
 
 ___
 
@@ -1075,7 +1075,7 @@ ___
   <Component {...rest} />
 ))
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L55)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:55](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L55)*
 
 ___
 
@@ -1083,7 +1083,7 @@ ___
 
 • **NodeProvider**: *ComponentClass‹any, any› & object | FunctionComponent‹any› & object* = withNode<PropsWithChildren<{}>, any>(React.Fragment)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L33)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L33)*
 
 ___
 
@@ -1091,7 +1091,7 @@ ___
 
 • **RESIZE_THROTTLE_INTERVAL**: *number* = 100
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx#L23)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx#L23)*
 
 ___
 
@@ -1099,7 +1099,7 @@ ___
 
 • **ROOT_NODE_KEY**: *""* = ""
 
-*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L29)*
+*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L29)*
 
 ___
 
@@ -1192,7 +1192,7 @@ ___
   );
 })
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx#L30)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableChild.tsx#L30)*
 
 This is the component which wraps all items in the flow container. You probably
 only need to use it directly if you are customizing the Admin UI.
@@ -1217,7 +1217,7 @@ ___
   ),
 )
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L62)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L62)*
 
 ___
 
@@ -1229,7 +1229,7 @@ ___
   withLocalContextMenu,
 )(SortableResizable$)
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L105)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L105)*
 
 ___
 
@@ -1286,7 +1286,7 @@ ___
   );
 })
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L59)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:59](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L59)*
 
 ___
 
@@ -1294,7 +1294,7 @@ ___
 
 • **UIConsumer**: *ExoticComponent‹ConsumerProps‹object››* = uiContext.Consumer
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:181](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L181)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:181](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L181)*
 
 ___
 
@@ -1315,7 +1315,7 @@ ___
   observer,
 )
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:104](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L104)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:104](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L104)*
 
 #### Type declaration:
 
@@ -1336,7 +1336,7 @@ ___
   designable(flowContainerComponentStart, 'FlowContainer'),
 )
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L69)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L69)*
 
 #### Type declaration:
 
@@ -1354,9 +1354,9 @@ ___
 
 • **backendPort**: *string | 8001* = process.env.GATSBY_BACKEND_PORT || 8001
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/BackendClient.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/BackendClient.ts#L17)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/BackendClient.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/BackendClient.ts#L17)*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/config.ts:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/config.ts#L18)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/config.ts:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/config.ts#L18)*
 
 ___
 
@@ -1364,7 +1364,7 @@ ___
 
 • **createHash**: *any*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:15](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L15)*
+*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:15](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L15)*
 
 ___
 
@@ -1372,7 +1372,7 @@ ___
 
 • **defaultMode**: *[StaticFlowContainer](enums/componentdisplaymode.md#staticflowcontainer)* = ComponentDisplayMode.StaticFlowContainer
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L25)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L25)*
 
 ___
 
@@ -1394,7 +1394,7 @@ ___
   withTuple('(min-width: 992px)')(100)('lg:w-full'),
 )
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:169](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L169)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:169](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L169)*
 
 #### Type declaration:
 
@@ -1412,7 +1412,7 @@ ___
 
 • **html2canvas**: *any* = typeof window !== 'undefined' ? require('html2canvas') : undefined
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L19)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L19)*
 
 ___
 
@@ -1420,7 +1420,7 @@ ___
 
 • **ifComponentSelector**: *function* = flowIf(isComponentSelector)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L50)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L50)*
 
 #### Type declaration:
 
@@ -1487,7 +1487,7 @@ ___
 
 • **ifNotComponentSelector**: *function* = flowIf(isNotComponentSelector)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L51)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L51)*
 
 #### Type declaration:
 
@@ -1554,7 +1554,7 @@ ___
 
 • **isNotComponentSelector**: *function* = negate(isComponentSelector)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L48)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L48)*
 
 #### Type declaration:
 
@@ -1572,7 +1572,7 @@ ___
 
 • **uiContext**: *Context‹object›* = React.createContext(defaultUI)
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L56)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:56](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L56)*
 
 ## Functions
 
@@ -1580,7 +1580,7 @@ ___
 
 ▸ **Capitalize**(`str`: String): *string*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L34)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L34)*
 
 **Parameters:**
 
@@ -1596,7 +1596,7 @@ ___
 
 ▸ **Checkbox**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L40)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L40)*
 
 **Parameters:**
 
@@ -1617,7 +1617,7 @@ ___
 
 ▸ **ComponentDisplayModeProvider**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L37)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L37)*
 
 **Parameters:**
 
@@ -1636,7 +1636,7 @@ ___
 
 ▸ **ComponentSelector**(`props`: object & object & object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L85)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L85)*
 
 **Parameters:**
 
@@ -1652,7 +1652,7 @@ ___
 
 ▸ **Dropdown**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:70](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L70)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:70](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L70)*
 
 **Parameters:**
 
@@ -1671,7 +1671,7 @@ ___
 
 ▸ **EditFlowContainer**(`props`: [EditFlowContainerProps](globals.md#editflowcontainerprops)): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L46)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L46)*
 
 An editable version of the FlowContainer container.
 
@@ -1689,7 +1689,7 @@ ___
 
 ▸ **EditListView**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L79)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:79](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L79)*
 
 **Parameters:**
 
@@ -1710,7 +1710,7 @@ ___
 
 ▸ **FilterWrapper**(`props`: any): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:92](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L92)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:92](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L92)*
 
 **Parameters:**
 
@@ -1726,7 +1726,7 @@ ___
 
 ▸ **FlowContainerBasic**(`props`: object & HTMLProps‹HTMLDivElement› & object & object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/index.tsx#L31)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/index.tsx#L31)*
 
 **Parameters:**
 
@@ -1742,7 +1742,7 @@ ___
 
 ▸ **FlowContainerEmpty$**(`ui`: [UI](globals.md#ui)): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L42)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L42)*
 
 **Parameters:**
 
@@ -1758,7 +1758,7 @@ ___
 
 ▸ **GetComponentThumbnail**(`callbackFxn`: Function, `myId`: string): *void*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L68)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L68)*
 
 **Parameters:**
 
@@ -1775,7 +1775,7 @@ ___
 
 ▸ **ItemList**(`props`: object & object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/ItemList.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/ItemList.tsx#L32)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/ItemList.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/ItemList.tsx#L32)*
 
 **Parameters:**
 
@@ -1791,7 +1791,7 @@ ___
 
 ▸ **RenderCanvas**(`props`: any): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L30)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L30)*
 
 **Parameters:**
 
@@ -1807,7 +1807,7 @@ ___
 
 ▸ **SearchWrapper**(`props`: any): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/SearchWrapper.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/SearchWrapper.tsx#L20)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/SearchWrapper.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/SearchWrapper.tsx#L20)*
 
 **Parameters:**
 
@@ -1823,7 +1823,7 @@ ___
 
 ▸ **SlateSortableResizable**(`props`: [SlateSortableResizableProps](globals.md#slatesortableresizableprops)): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:119](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L119)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:119](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L119)*
 
 **Parameters:**
 
@@ -1839,7 +1839,7 @@ ___
 
 ▸ **SortableResizable$**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:81](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L81)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:81](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L81)*
 
 **Parameters:**
 
@@ -1860,7 +1860,7 @@ ___
 
 ▸ **StaticFlowContainer**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L35)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L35)*
 
 **Parameters:**
 
@@ -1878,7 +1878,7 @@ ___
 
 ▸ **TextFormatList**(`props`: object & object): *Element‹›*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:162](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L162)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:162](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L162)*
 
 **Parameters:**
 
@@ -1894,7 +1894,7 @@ ___
 
 ▸ **addtoArray**(`myArr`: Array‹any›, `myVal`: any): *any[]*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L20)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L20)*
 
 **Parameters:**
 
@@ -1911,7 +1911,7 @@ ___
 
 ▸ **applyMandatoryCategories**(`components`: any, `mandatoryCategories`: string[]): *void*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L39)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L39)*
 
 **Parameters:**
 
@@ -1928,7 +1928,7 @@ ___
 
 ▸ **asPassThough**(`Component`: [CTWM](globals.md#ctwm)): *ComponentClass‹any, any› & object | FunctionComponent‹any› & object*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L32)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L32)*
 
 **Parameters:**
 
@@ -1944,7 +1944,7 @@ ___
 
 ▸ **childKeys**(`node`: ContentNode‹any›): *string[]*
 
-*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L35)*
+*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L35)*
 
 **Parameters:**
 
@@ -1960,7 +1960,7 @@ ___
 
 ▸ **componentSelectorForm**(`props`: [EditFlowContainerProps](globals.md#editflowcontainerprops), `onSelect`: ComponentSelectorProps["onSelect"]): *function*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/componentSelectorForm.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/componentSelectorForm.tsx#L26)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/componentSelectorForm.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/componentSelectorForm.tsx#L26)*
 
 Returns a component selector wrapped in a context menu form.
 
@@ -1987,7 +1987,7 @@ ___
 
 ▸ **copyNode**(`source`: ContentNode‹any›, `dest`: ContentNode‹any›, `copyChildren`: boolean): *void*
 
-*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L50)*
+*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L50)*
 
 **Parameters:**
 
@@ -2005,7 +2005,7 @@ ___
 
 ▸ **createDefaultDeserializer**(`type`: string): *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/defaultDeserializers.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/defaultDeserializers.ts#L21)*
+*Defined in [packages/bodiless-layouts/src/deserializers/defaultDeserializers.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/defaultDeserializers.ts#L21)*
 
 **Parameters:**
 
@@ -2037,7 +2037,7 @@ ___
 
 ▸ **createFlowContainerItem**(`__namedParameters`: object): *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L37)*
+*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L37)*
 
 **Parameters:**
 
@@ -2068,7 +2068,7 @@ ___
 
 ▸ **createListDeserializer**(`type`: string, `linkKey`: string, `titleKey`: string): *object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/listDeserializer.ts:64](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/listDeserializer.ts#L64)*
+*Defined in [packages/bodiless-layouts/src/deserializers/listDeserializer.ts:64](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/listDeserializer.ts#L64)*
 
 **Parameters:**
 
@@ -2102,7 +2102,7 @@ ___
 
 ▸ **customizer**(`objValue`: any, `srcValue`: any): *undefined | any[]*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L26)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L26)*
 
 **Parameters:**
 
@@ -2119,7 +2119,7 @@ ___
 
 ▸ **dataURItoBlob**(`dataURI`: any): *Blob*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L42)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L42)*
 
 **Parameters:**
 
@@ -2135,7 +2135,7 @@ ___
 
 ▸ **deserializeElement**(`__namedParameters`: object): *object & object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L37)*
+*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L37)*
 
 **Parameters:**
 
@@ -2154,7 +2154,7 @@ ___
 
 ▸ **deserializeHtml**(`html`: string, `deserializers`: [Deserializer](globals.md#deserializer)[], `domParser?`: DOMParser): *object & object*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L71)*
+*Defined in [packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts:71](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/htmlDeserializer.ts#L71)*
 
 **Parameters:**
 
@@ -2172,7 +2172,7 @@ ___
 
 ▸ **deserializeList**(`linkKey`: string, `titleKey`: string): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/listDeserializer.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/listDeserializer.ts#L23)*
+*Defined in [packages/bodiless-layouts/src/deserializers/listDeserializer.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/listDeserializer.ts#L23)*
 
 **Parameters:**
 
@@ -2189,7 +2189,7 @@ ___
 
 ▸ **filterByMedia**(`media`: string): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:133](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L133)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:133](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L133)*
 
 **Parameters:**
 
@@ -2205,7 +2205,7 @@ ___
 
 ▸ **filterByWidth**(`width`: number): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:136](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L136)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:136](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L136)*
 
 **Parameters:**
 
@@ -2221,7 +2221,7 @@ ___
 
 ▸ **flattenElement**(`__namedParameters`: object): *object[]*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L32)*
+*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L32)*
 
 **Parameters:**
 
@@ -2240,7 +2240,7 @@ ___
 
 ▸ **generateUuid**(`content`: string, `index`: number): *any*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L30)*
+*Defined in [packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/createFlowContainerItem.ts#L30)*
 
 **Parameters:**
 
@@ -2257,7 +2257,7 @@ ___
 
 ▸ **getClassNames**(`options`: [Tuple](globals.md#tuple)[]): *string[]*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L99)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:99](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L99)*
 
 getClassNames extracts all of the unquie classNames from an array of withTuples
 
@@ -2275,7 +2275,7 @@ ___
 
 ▸ **getFilteredComponents**(`components`: any[], `filters`: Array‹any›, `searchString`: string): *any[]*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/getFilteredComponents.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/getFilteredComponents.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/getFilteredComponents.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/getFilteredComponents.tsx#L24)*
 
 This generates a new list of components: newComponentArr
 
@@ -2298,7 +2298,7 @@ ___
 
 ▸ **getFiltersByComponentList**(`components`: any): *[LooseObject](interfaces/looseobject.md)*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/getFiltersByComponentList.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/getFiltersByComponentList.tsx#L28)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/getFiltersByComponentList.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/getFiltersByComponentList.tsx#L28)*
 
 This function takes array of components and extracts their values into pairs such that
 {key:[value1,value2,...] , key2:[value1,value2,..]}.
@@ -2320,7 +2320,7 @@ ___
 
 ▸ **getMediaMatch**(`matchMedia`: Function): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:124](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L124)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:124](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L124)*
 
 **Parameters:**
 
@@ -2336,7 +2336,7 @@ ___
 
 ▸ **getMedias**(`options`: [Tuple](globals.md#tuple)[]): *string[]*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L113)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L113)*
 
 getMedias extracts all of the unquie widths from an array of withTuples
 
@@ -2354,7 +2354,7 @@ ___
 
 ▸ **getSnapFrom**(...`withTuples`: [WithTuples](globals.md#withtuples)[]): *[SnapData](globals.md#snapdata)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:140](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L140)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:140](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L140)*
 
 **Parameters:**
 
@@ -2370,7 +2370,7 @@ ___
 
 ▸ **getTitleFromTerms**(`Component`: [ComponentWithMeta](globals.md#componentwithmeta)‹any›, `ops`: [WithTitleFromTermsProps](globals.md#withtitlefromtermsprops)): *string*
 
-*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L29)*
+*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L29)*
 
 **Parameters:**
 
@@ -2387,7 +2387,7 @@ ___
 
 ▸ **getUI**(`ui`: [UI](globals.md#ui)): *object*
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L37)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L37)*
 
 **Parameters:**
 
@@ -2399,7 +2399,7 @@ Name | Type | Default |
 
 ▸ **getUI**(`ui`: [UI](globals.md#ui)): *object*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L42)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L42)*
 
 **Parameters:**
 
@@ -2411,7 +2411,7 @@ Name | Type | Default |
 
 ▸ **getUI**(`ui`: [UI](globals.md#ui)): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L40)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L40)*
 
 **Parameters:**
 
@@ -2427,7 +2427,7 @@ ___
 
 ▸ **getWidths**(`options`: [Tuple](globals.md#tuple)[]): *number[]*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L85)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:85](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L85)*
 
 getWidths extracts all of the unquie widths from an array of withTuples
 
@@ -2445,7 +2445,7 @@ ___
 
 ▸ **hash**(`str`: string): *number*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:75](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L75)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:75](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L75)*
 
 **Parameters:**
 
@@ -2461,7 +2461,7 @@ ___
 
 ▸ **isComponentSelector**(): *boolean*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L47)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L47)*
 
 **Returns:** *boolean*
 
@@ -2471,7 +2471,7 @@ ___
 
 ▸ **perserveMeta**(`hoc`: HOC): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L113)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:113](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L113)*
 
 preserveMeta returns takes an hoc and returns another one that will apply the hoc but preserve
 theMeta data from the component.
@@ -2490,7 +2490,7 @@ ___
 
 ▸ **reduceFilters**(`filters`: any, `components`: any, `blacklistCategories`: string[]): *object*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L63)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/index.tsx:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/index.tsx#L63)*
 
 reduce filters so that filter is picked
 when at least one of it's terms applies or associated with ALL of the components
@@ -2511,7 +2511,7 @@ ___
 
 ▸ **removefromArray**(`myArr`: Array‹any›, `myVal`: any): *any[]*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L25)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/FilterWrapper.tsx#L25)*
 
 **Parameters:**
 
@@ -2528,7 +2528,7 @@ ___
 
 ▸ **shouldMergeElement**(`prevElement`: [FlattenedElement](globals.md#flattenedelement), `nextElement`: [FlattenedElement](globals.md#flattenedelement)): *boolean*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L27)*
+*Defined in [packages/bodiless-layouts/src/deserializers/flattenElement.ts:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/flattenElement.ts#L27)*
 
 **Parameters:**
 
@@ -2545,7 +2545,7 @@ ___
 
 ▸ **titleToImageName**(`componentTitle`: string): *string*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/ScreenShot.tsx#L24)*
 
 **Parameters:**
 
@@ -2561,7 +2561,7 @@ ___
 
 ▸ **useAddButton**(`handlers`: [Handlers](globals.md#handlers), `props`: [EditFlowContainerProps](globals.md#editflowcontainerprops), `item?`: [FlowContainerItem](interfaces/flowcontaineritem.md)): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:162](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L162)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:162](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L162)*
 
 **Parameters:**
 
@@ -2599,7 +2599,7 @@ ___
 
 ▸ **useCloneButton**(`handlers`: [Handlers](globals.md#handlers), `props`: [EditFlowContainerProps](globals.md#editflowcontainerprops), `item`: [FlowContainerItem](interfaces/flowcontaineritem.md)): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:100](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L100)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:100](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L100)*
 
 **Parameters:**
 
@@ -2631,7 +2631,7 @@ ___
 
 ▸ **useComponentDisplayModeContext**(): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L31)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/ComponentDisplayMode.tsx#L31)*
 
 **Returns:** *object*
 
@@ -2643,7 +2643,7 @@ ___
 
 ▸ **useComponentSelectorActions**(`handlers`: [Handlers](globals.md#handlers), `props`: [EditFlowContainerProps](globals.md#editflowcontainerprops), `currentItem?`: [FlowContainerItem](interfaces/flowcontaineritem.md)): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L68)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:68](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L68)*
 
 **Parameters:**
 
@@ -2669,7 +2669,7 @@ ___
 
 ▸ **useDeleteButton**(`handlers`: [Handlers](globals.md#handlers), `props`: [EditFlowContainerProps](globals.md#editflowcontainerprops), `item`: [FlowContainerItem](interfaces/flowcontaineritem.md)): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:130](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L130)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:130](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L130)*
 
 **Parameters:**
 
@@ -2704,13 +2704,13 @@ ___
 
 ▸ **useFlowContainerDataHandlers**(): *[FlowContainerDataHandlers](globals.md#flowcontainerdatahandlers)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L63)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:63](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L63)*
 
 **Returns:** *[FlowContainerDataHandlers](globals.md#flowcontainerdatahandlers)*
 
 ▸ **useFlowContainerDataHandlers**(): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L27)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L27)*
 
 **Returns:** *object*
 
@@ -2726,7 +2726,7 @@ ___
 
 ▸ **useGetItemUseGetMenuOptions**(`props`: [EditFlowContainerProps](globals.md#editflowcontainerprops)): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:243](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L243)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:243](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L243)*
 
 **Parameters:**
 
@@ -2744,7 +2744,7 @@ ___
 
 ▸ **useHasActiveChildItem**(): *boolean*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L69)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L69)*
 
 **Returns:** *boolean*
 
@@ -2754,7 +2754,7 @@ ___
 
 ▸ **useIsNested**(): *boolean*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:111](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L111)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:111](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L111)*
 
 **Returns:** *boolean*
 
@@ -2764,7 +2764,7 @@ ___
 
 ▸ **useItemButtonName**(`prefix`: string, `uuid`: string): *string*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L51)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L51)*
 
 **Parameters:**
 
@@ -2781,13 +2781,13 @@ ___
 
 ▸ **useItemHandlers**(): *[FlowContainerItemHandlers](globals.md#flowcontaineritemhandlers)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/model.ts#L47)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/model.ts:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/model.ts#L47)*
 
 **Returns:** *[FlowContainerItemHandlers](globals.md#flowcontaineritemhandlers)*
 
 ▸ **useItemHandlers**(): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L26)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L26)*
 
 **Returns:** *object*
 
@@ -2801,7 +2801,7 @@ ___
 
 ▸ **useMenuOptions**(`props`: [EditFlowContainerProps](globals.md#editflowcontainerprops)): *object[]*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:216](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L216)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:216](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L216)*
 
 **Parameters:**
 
@@ -2817,7 +2817,7 @@ ___
 
 ▸ **useSwapButton**(`handlers`: [Handlers](globals.md#handlers), `props`: [EditFlowContainerProps](globals.md#editflowcontainerprops), `item`: [FlowContainerItem](interfaces/flowcontaineritem.md)): *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:188](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L188)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:188](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L188)*
 
 **Parameters:**
 
@@ -2855,7 +2855,7 @@ ___
 
 ▸ **withAllTitlesFromTerms**(`ops`: [WithTitleFromTermsProps](globals.md#withtitlefromtermsprops)): *Token*
 
-*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L84)*
+*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:84](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L84)*
 
 Creates a token which can be applied to a flow container so that
 all its components will have a default title generated based on
@@ -2877,7 +2877,7 @@ ___
 
 ▸ **withAppendDesc**(`newDescription`: string): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L94)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:94](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L94)*
 
 withAppendDesc returns an HOC that appends a description to the component sideload description.
 
@@ -2895,7 +2895,7 @@ ___
 
 ▸ **withAppendDisplayName**(`newDisplayName`: string): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:76](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L76)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:76](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L76)*
 
 withAppendDisplayName returns a HOC that appends a name to the sideloaded DisplayName
 
@@ -2913,7 +2913,7 @@ ___
 
 ▸ **withAppendTitle**(`newTitle`: string): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L58)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:58](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L58)*
 
 withAppendTitle returns an HOC that appends to the sideload title of the component
 Note it appends to the title with a space.
@@ -2932,7 +2932,7 @@ ___
 
 ▸ **withContentLibrary**(`options`: [ContentLibraryOptions](globals.md#contentlibraryoptions)): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L57)*
+*Defined in [packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx:57](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ContentLibrary/withContentLibrary.tsx#L57)*
 
 **Parameters:**
 
@@ -2948,7 +2948,7 @@ ___
 
 ▸ **withDesc**(`description`: string): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:87](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L87)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:87](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L87)*
 
 withDesc returns an HOC that sideloads the provided discription to the component.
 
@@ -2966,7 +2966,7 @@ ___
 
 ▸ **withDirection**(`langDirection`: [Direction](globals.md#direction)): *function & object*
 
-*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L27)*
+*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L27)*
 
 **Parameters:**
 
@@ -2982,7 +2982,7 @@ ___
 
 ▸ **withDisplayName**(`displayName`: string): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L69)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:69](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L69)*
 
 withDisplayName returns an HOC that sideloads a displayName to a component
 
@@ -3000,7 +3000,7 @@ ___
 
 ▸ **withFacet**(`cat`: string): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:124](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L124)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:124](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L124)*
 
 withFacet is expect to be passed to an on function and takes a term and and hoc (using curring)
  and returns a Varient that can be used in the on function
@@ -3019,7 +3019,7 @@ ___
 
 ▸ **withFlowContainerDefaultHtml**(`deserializers`: [Deserializer](globals.md#deserializer)[], `html?`: undefined | string): *Enhancer‹object›*
 
-*Defined in [packages/bodiless-layouts/src/deserializers/withFlowContainerDefaultHtml.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/deserializers/withFlowContainerDefaultHtml.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/deserializers/withFlowContainerDefaultHtml.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/deserializers/withFlowContainerDefaultHtml.tsx#L24)*
 
 **Parameters:**
 
@@ -3036,7 +3036,7 @@ ___
 
 ▸ **withMandatoryCategories**(`categories`: string[]): *function & object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/index.tsx#L45)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/index.tsx:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/index.tsx#L45)*
 
 **Parameters:**
 
@@ -3052,7 +3052,7 @@ ___
 
 ▸ **withMeta**(`meta`: Object): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L42)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L42)*
 
 withMeta creates an HOC that will add meta data to a React Component
 
@@ -3070,7 +3070,7 @@ ___
 
 ▸ **withNoDesign**(`props`: [EditFlowContainerProps](globals.md#editflowcontainerprops)): *[EditFlowContainerProps](globals.md#editflowcontainerprops)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L41)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/useGetMenuOptions.tsx#L41)*
 
 **Parameters:**
 
@@ -3088,7 +3088,7 @@ ___
 
 ▸ **withOutMeta**(`Component`: "symbol" | "object" | "a" | "abbr" | "address" | "area" | "article" | "aside" | "audio" | "b" | "base" | "bdi" | "bdo" | "big" | "blockquote" | "body" | "br" | "button" | "canvas" | "caption" | "cite" | "code" | "col" | "colgroup" | "data" | "datalist" | "dd" | "del" | "details" | "dfn" | "dialog" | "div" | "dl" | "dt" | "em" | "embed" | "fieldset" | "figcaption" | "figure" | "footer" | "form" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "head" | "header" | "hgroup" | "hr" | "html" | "i" | "iframe" | "img" | "input" | "ins" | "kbd" | "keygen" | "label" | "legend" | "li" | "link" | "main" | "map" | "mark" | "menu" | "menuitem" | "meta" | "meter" | "nav" | "noindex" | "noscript" | "ol" | "optgroup" | "option" | "output" | "p" | "param" | "picture" | "pre" | "progress" | "q" | "rp" | "rt" | "ruby" | "s" | "samp" | "slot" | "script" | "section" | "select" | "small" | "source" | "span" | "strong" | "style" | "sub" | "summary" | "sup" | "table" | "template" | "tbody" | "td" | "textarea" | "tfoot" | "th" | "thead" | "time" | "title" | "tr" | "track" | "u" | "ul" | "var" | "video" | "wbr" | "webview" | "svg" | "animate" | "animateMotion" | "animateTransform" | "circle" | "clipPath" | "defs" | "desc" | "ellipse" | "feBlend" | "feColorMatrix" | "feComponentTransfer" | "feComposite" | "feConvolveMatrix" | "feDiffuseLighting" | "feDisplacementMap" | "feDistantLight" | "feDropShadow" | "feFlood" | "feFuncA" | "feFuncB" | "feFuncG" | "feFuncR" | "feGaussianBlur" | "feImage" | "feMerge" | "feMergeNode" | "feMorphology" | "feOffset" | "fePointLight" | "feSpecularLighting" | "feSpotLight" | "feTile" | "feTurbulence" | "filter" | "foreignObject" | "g" | "image" | "line" | "linearGradient" | "marker" | "mask" | "metadata" | "mpath" | "path" | "pattern" | "polygon" | "polyline" | "radialGradient" | "rect" | "stop" | "switch" | "text" | "textPath" | "tspan" | "use" | "view" | ComponentClass‹P, any› & object | FunctionComponent‹P› & object): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L37)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L37)*
 
 Creates an HOC use it to attach meta data in an hoc.
 
@@ -3106,7 +3106,7 @@ ___
 
 ▸ **withTailwindClasses**(`tailwindConfig`: [Config](globals.md#config)): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L62)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:62](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L62)*
 
 withTailwindClasses returns a withTuple function that take the tailwind class and creates
 tuples for each one of them.
@@ -3125,7 +3125,7 @@ ___
 
 ▸ **withTailwindWidthConstraints**(`config`: any): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:185](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L185)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:185](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L185)*
 
 **Parameters:**
 
@@ -3141,7 +3141,7 @@ ___
 
 ▸ **withTerm**(`cat`: string): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L105)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:105](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L105)*
 
 withTerm returns a function that then takes a term and that returns an HOC that side loads
 the category and term on to the component.
@@ -3160,7 +3160,7 @@ ___
 
 ▸ **withTitle**(`title`: string): *HOC*
 
-*Defined in [packages/bodiless-layouts/src/meta/index.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/index.tsx#L50)*
+*Defined in [packages/bodiless-layouts/src/meta/index.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/index.tsx#L50)*
 
 with Title returns an HOC that sideloads a title to a component
 
@@ -3178,7 +3178,7 @@ ___
 
 ▸ **withTitleFromTerms**(`ops`: [WithTitleFromTermsProps](globals.md#withtitlefromtermsprops)): *Token*
 
-*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L67)*
+*Defined in [packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx:67](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/meta/withTitleFromTerms.tsx#L67)*
 
 Creates a token which adds a `title` property to a component. This is derived from all
 terms which have been applied to that component.
@@ -3201,7 +3201,7 @@ ___
 
 ▸ **withTuple**(`media`: string): *(Anonymous function)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L44)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/utils/appendTailwindWidthClass.ts#L44)*
 
 Curry function that returns a withTuple to be used a snapOptions function.
 
@@ -3223,19 +3223,19 @@ Name | Type |
 
 ### ▪ **DIRECTIONS**: *object*
 
-*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L22)*
+*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L22)*
 
 ###  LTR
 
 • **LTR**: *[LanguageDirection](enums/languagedirection.md)* = LanguageDirection.LTR
 
-*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L23)*
+*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L23)*
 
 ###  RTL
 
 • **RTL**: *[LanguageDirection](enums/languagedirection.md)* = LanguageDirection.RTL
 
-*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/withDirection/withDirection.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/withDirection/withDirection.tsx#L24)*
 
 ___
 
@@ -3243,19 +3243,19 @@ ___
 
 ### ▪ **EditFlowContainerComponents**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L38)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L38)*
 
 ###  ComponentWrapper
 
 • **ComponentWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = stylable<SortableChildProps>(SortableChild)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L40)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L40)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = stylable<SortableListProps>(SortableContainer)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L39)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/EditFlowContainer.tsx#L39)*
 
 ___
 
@@ -3263,265 +3263,265 @@ ___
 
 ### ▪ **defaultUI**: *object*
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L30)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L30)*
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L38)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L38)*
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L18)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L18)*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L36)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L36)*
 
 ###  AccordionCheckBox
 
 • **AccordionCheckBox**: *string* = "input"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L29)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L29)*
 
 ###  AccordionCheckboxLabel
 
 • **AccordionCheckboxLabel**: *string* = "label"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L28)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L28)*
 
 ###  AccordionCheckboxWrapper
 
 • **AccordionCheckboxWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L26)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:26](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L26)*
 
 ###  AccordionIconContract
 
 • **AccordionIconContract**: *string* = "span"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L33)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L33)*
 
 ###  AccordionIconExpand
 
 • **AccordionIconExpand**: *string* = "span"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L34)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L34)*
 
 ###  AccordionItemWrapper
 
 • **AccordionItemWrapper**: *string* = "a"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L27)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:27](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L27)*
 
 ###  AccordionLabel
 
 • **AccordionLabel**: *string* = "label"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L32)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L32)*
 
 ###  AccordionWrapper
 
 • **AccordionWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L25)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:25](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L25)*
 
 ###  CloseMenuIcon
 
 • **CloseMenuIcon**: *string* = "span"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L35)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:35](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L35)*
 
 ###  ComponentDescriptionIcon
 
 • **ComponentDescriptionIcon**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L49)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:49](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L49)*
 
 ###  ComponentDescriptionStyle
 
 • **ComponentDescriptionStyle**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L46)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:46](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L46)*
 
 ###  ComponentDescriptionWrapper
 
 • **ComponentDescriptionWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L45)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:45](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L45)*
 
 ###  ComponentLinkWrapper
 
 • **ComponentLinkWrapper**: *string* = "a"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L43)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:43](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L43)*
 
 ###  ComponentPreviewStyle
 
 • **ComponentPreviewStyle**: *string* = "img"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L47)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:47](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L47)*
 
 ###  ComponentSelectButton
 
 • **ComponentSelectButton**: *string* = "button"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L48)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:48](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L48)*
 
 ###  ComponentSelectorWrapper
 
 • **ComponentSelectorWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L23)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L23)*
 
 ###  ComponentTitleWrapper
 
 • **ComponentTitleWrapper**: *string* = "h3"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L42)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:42](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L42)*
 
 ###  DragHandle
 
 • **DragHandle**: *string* = "span"
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L31)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L31)*
 
 ###  FlexSection
 
 • **FlexSection**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L20)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:20](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L20)*
 
 ###  FlexSectionFull
 
 • **FlexSectionFull**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L21)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L21)*
 
 ###  FlowContainerEmpty
 
 • **FlowContainerEmpty**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L22)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L22)*
 
 ###  FlowContainerEmptyWrapper
 
 • **FlowContainerEmptyWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L37)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/SortableContainer.tsx#L37)*
 
 ###  GridListBox
 
 • **GridListBox**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L38)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:38](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L38)*
 
 ###  GridListBoxInner
 
 • **GridListBoxInner**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L40)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L40)*
 
 ###  GridListBoxWrapper
 
 • **GridListBoxWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L39)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L39)*
 
 ###  IconWrapper
 
 • **IconWrapper**: *string* = "span"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L44)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:44](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L44)*
 
 ###  ItemBox
 
 • **ItemBox**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L37)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:37](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L37)*
 
 ###  ItemBoxWrapper
 
 • **ItemBoxWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L36)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:36](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L36)*
 
 ###  MasterWrapper
 
 • **MasterWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L19)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L19)*
 
 ###  Reresizable
 
 • **Reresizable**: *Resizable* = CleanReresizable
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L34)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:34](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L34)*
 
 ###  ResizeHandle
 
 • **ResizeHandle**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L32)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:32](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L32)*
 
 ###  ResizeHandleRTL
 
 • **ResizeHandleRTL**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L33)*
+*Defined in [packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx:33](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SortableResizableWrapper/index.tsx#L33)*
 
 ###  ScalingButtonFull
 
 • **ScalingButtonFull**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L51)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:51](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L51)*
 
 ###  ScalingButtonHalf
 
 • **ScalingButtonHalf**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L52)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:52](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L52)*
 
 ###  ScalingButtonQuarter
 
 • **ScalingButtonQuarter**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L53)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:53](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L53)*
 
 ###  ScalingHeader
 
 • **ScalingHeader**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L50)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:50](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L50)*
 
 ###  SearchBar
 
 • **SearchBar**: *string* = "input"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L31)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:31](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L31)*
 
 ###  SearchBarWrapper
 
 • **SearchBarWrapper**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L30)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L30)*
 
 ###  SnapIndicator
 
 • **SnapIndicator**: *string* = "div"
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L40)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:40](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L40)*
 
 ###  SubmitButton
 
 • **SubmitButton**: *string* = "button"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L24)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L24)*
 
 ###  TitleWrapper
 
 • **TitleWrapper**: *string* = "span"
 
-*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L41)*
+*Defined in [packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx:41](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/ComponentSelector/uiContext.tsx#L41)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹object & SortableElementProps, any›* = CleanWrapper
 
-*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L39)*
+*Defined in [packages/bodiless-layouts/src/SlateSortableResizable.tsx:39](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/SlateSortableResizable.tsx#L39)*
 
 ___
 
@@ -3529,19 +3529,19 @@ ___
 
 ### ▪ **flowContainerComponentStart**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L28)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:28](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L28)*
 
 ###  ComponentWrapper
 
 • **ComponentWrapper**: *ComponentClass‹object & object, any› & object | FunctionComponent‹object & object› & object* = Div
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L30)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:30](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L30)*
 
 ###  Wrapper
 
 • **Wrapper**: *ComponentClass‹any, any› & object | FunctionComponent‹any› & object* = withoutProps('itemCount')(Div)
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L29)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx:29](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/StaticFlowContainer.tsx#L29)*
 
 ___
 
@@ -3549,25 +3549,25 @@ ___
 
 ### ▪ **flowContainerDataHandlers**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L21)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:21](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L21)*
 
 ###  deleteFlowContainerItem
 
 • **deleteFlowContainerItem**: *Mock‹any, any›* = jest.fn()
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L23)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:23](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L23)*
 
 ###  insertFlowContainerItem
 
 • **insertFlowContainerItem**: *Mock‹object, []›* = jest.fn(() => ({ uuid: v1() }))
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L22)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:22](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L22)*
 
 ###  updateFlowContainerItem
 
 • **updateFlowContainerItem**: *Mock‹any, any›* = jest.fn()
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L24)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:24](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L24)*
 
 ___
 
@@ -3575,16 +3575,16 @@ ___
 
 ### ▪ **itemHandlers**: *object*
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L17)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:17](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L17)*
 
 ###  getItems
 
 • **getItems**: *Mock‹any, any›* = jest.fn()
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L18)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:18](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L18)*
 
 ###  setItems
 
 • **setItems**: *Mock‹any, any›* = jest.fn()
 
-*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/4f0bb69e/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L19)*
+*Defined in [packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts:19](https://github.com/Guilherme-Almeida-Zeni/Bodiless-JS/blob/63a0b81d/packages/bodiless-layouts/src/FlowContainer/__mocks__/model.ts#L19)*
