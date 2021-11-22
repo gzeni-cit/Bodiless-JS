@@ -1,6 +1,4 @@
-[@bodiless/navigation](README.md) › [Globals](globals.md)
-
-# @bodiless/navigation
+@bodiless/navigation / [Exports](modules.md)
 
 # Overview
 
