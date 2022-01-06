@@ -4,6 +4,7 @@
   - [Content Editor User Guide](/ContentEditorUserGuide/)
     - [Page Menu](/ContentEditorUserGuide/PageMenu/)
       - [New](/ContentEditorUserGuide/PageMenu/New/)
+      - [Move](/ContentEditorUserGuide/PageMenu/Move/)
       - [Disable](/ContentEditorUserGuide/PageMenu/Disable/)
       - [Clone](/ContentEditorUserGuide/PageMenu/Clone/)
       - [Delete](/ContentEditorUserGuide/PageMenu/Delete/)
