@@ -12,6 +12,8 @@
  * limitations under the License.
  */
 
+import 'cypress-file-upload';
+
 describe('Card testing', function () {
 
   before(function () {

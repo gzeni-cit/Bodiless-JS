@@ -12,6 +12,8 @@
  * limitations under the License.
  */
 
+import 'cypress-file-upload';
+
 describe('PDP (Product Details Page) smoke tests', function () {
 
   before(function () {
