@@ -105,6 +105,7 @@ describe('PDP (Product Details Page) smoke tests', function () {
       .click();
     const imagePath = `${imagesFolderPath}/${imageName}`;
     cy.fixture(imagePath).then(fileContent => {
+      cy.get('input[type=file]').invoke('show');
       cy.get('input[type=file]').attachFile({ fileContent, fileName: imageName, mimeType: "image/jpeg" });
     })
     cy.wait(3000);
