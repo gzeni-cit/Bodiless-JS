@@ -93,7 +93,7 @@ Cypress.Commands.add("toggleMenuLeft", () => {
 Cypress.Commands.add("isImageVisible", (imageXpath) => {
   cy.xpath(imageXpath)
     .should('be.visible')
-    .and(($img) => {
+    .then(($img) => {
       // "naturalWidth" and "naturalHeight" are set when the image loads
       expect($img[0].naturalWidth).to.be.greaterThan(0)
     })
