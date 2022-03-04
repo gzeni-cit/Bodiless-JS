@@ -12,8 +12,6 @@
  * limitations under the License.
  */
 
-import 'cypress-file-upload';
-
 describe('PDP (Product Details Page) smoke tests', function () {
 
   before(function () {
@@ -107,7 +105,7 @@ describe('PDP (Product Details Page) smoke tests', function () {
       .click();
     const imagePath = `${imagesFolderPath}/${imageName}`;
     cy.fixture(imagePath).then(fileContent => {
-      cy.get('input[type=file]').upload({ fileContent, fileName: imageName, mimeType: "image/jpeg" });
+      cy.get('input[type=file]').attachFile({ fileContent, fileName: imageName, mimeType: "image/jpeg" });
     })
     cy.wait(3000);
     cy.xpath(checkmarkIconImageFormXpath)

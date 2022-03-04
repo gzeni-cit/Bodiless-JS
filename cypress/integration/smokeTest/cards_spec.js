@@ -12,8 +12,6 @@
  * limitations under the License.
  */
 
-import 'cypress-file-upload';
-
 describe('Card testing', function () {
 
   before(function () {
@@ -89,7 +87,7 @@ describe('Card testing', function () {
       .click();
     const imagePath = `${imagesFolderPath}/${imageNameOriginal}`;
     cy.fixture(imagePath).then(fileContent => {
-      cy.get('input[type=file]').upload({ fileContent, fileName: imageNameOriginal, mimeType: "image/jpeg" });
+      cy.get('input[type=file]').attachFile({ fileContent, fileName: imageNameOriginal, mimeType: "image/jpeg" });
     })
     cy.wait(3000);
     cy.xpath(checkmarkIconImageFormXpath)
@@ -194,7 +192,7 @@ describe('Card testing', function () {
       .type(editedPostfix);
     const imagePath = `${imagesFolderPath}/${imageNameUpdated}`;
     cy.fixture(imagePath).then(fileContent => {
-      cy.get('input[type=file]').upload({ fileContent, fileName: imageNameUpdated, mimeType: "image/jpeg" });
+      cy.get('input[type=file]').attachFile({ fileContent, fileName: imageNameUpdated, mimeType: "image/jpeg" });
     })
     cy.wait(3000);
     cy.xpath(checkmarkIconImageFormXpath)
