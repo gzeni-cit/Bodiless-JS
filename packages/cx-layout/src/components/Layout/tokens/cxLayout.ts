@@ -14,6 +14,8 @@
 import {
   addProps,
   as,
+  Div,
+  replaceWith,
 } from '@bodiless/fclasses';
 import { cxElement } from '@bodiless/cx-elements';
 import { asLayoutToken } from '../LayoutClean';
@@ -29,8 +31,8 @@ import { WithBordersLabels } from './cxLayoutTest';
 const Base = asLayoutToken({
   Components: {
     Helmet: cxHelmet.Default,
-    Header: cxHeader.Default,
-    Footer: cxFooter.Default,
+    Header: replaceWith(Div),
+    Footer: replaceWith(Div),
   },
   Theme: {
   },
@@ -72,13 +74,13 @@ const ConstrainSite = asLayoutToken({
 
 const Header = asLayoutToken({
   Components: {
-    Header: as(cxHeader.Default),
+    Header: cxHeader.Default,
   },
 });
 
 const Footer = asLayoutToken({
   Components: {
-    Footer: as(cxFooter.Default),
+    Footer: cxFooter.Default,
   },
 });
 
@@ -88,7 +90,25 @@ const Default = asLayoutToken({
     ...Base.Components,
     ...Header.Components,
     ...Footer.Components,
+  },
+  Theme: {
     ...ConstrainSite.Theme,
+  },
+});
+
+const HeaderOnly = asLayoutToken({
+  ...Default,
+  Components: {
+    ...Base.Components,
+    ...Header.Components,
+  },
+});
+
+const FooterOnly = asLayoutToken({
+  ...Default,
+  Components: {
+    ...Base.Components,
+    ...Footer.Components,
   },
 });
 
@@ -96,6 +116,8 @@ export default {
   Base,
   Default,
   Header,
+  HeaderOnly,
   Footer,
+  FooterOnly,
   WithBordersLabels,
 };

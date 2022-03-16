@@ -12,6 +12,7 @@
  * limitations under the License.
  */
 
+import pick from 'lodash/pick';
 import {
   replaceWith,
   P,
@@ -46,6 +47,7 @@ import {
   cxColor,
   cxElement,
   cxFontSize,
+  cxTextDecoration,
 } from '@bodiless/cx-elements';
 import { LinkClean, cxLink } from '@bodiless/cx-link';
 
@@ -109,8 +111,14 @@ const Default = asCxTokenSpec()({
   },
 });
 
-const Copyright = asCxTokenSpec()({
+const Basic = asCxTokenSpec()({
   ...Default,
+  Core: pick(Default.Core, 'paragraph', 'Bold', 'Underline', 'Link', 'SuperScript'),
+  Components: pick(Default.Components, 'Bold', 'Underline', 'SuperScript'),
+});
+
+const Copyright = asCxTokenSpec()({
+  ...Basic,
   Spacing: {
     paragraph: 'mx-9 py-9 md:mx-0 md:mb-4 md:p-0 lg:mt-2 lg:mb-0 lg:py-0',
   },
@@ -118,17 +126,28 @@ const Copyright = asCxTokenSpec()({
     paragraph: as(
       cxColor.TextPrimaryFooterCopy,
       cxFontSize.XS,
-      'border-white-400 border-t border-b md:border-0 lg:text-m-xs',
+      cxTextDecoration.Normal,
+      'border-white-400 border-t border-b md:border-0',
+    ),
+    Link: as(
+      cxColor.TextPrimaryFooterCopy,
+      cxFontSize.XS,
+      cxTextDecoration.Bold,
+      cxTextDecoration.Underline,
+      'text-cx-primary-interactive',
     ),
   },
   Content: {
     _: addProps({ placeholder: 'Insert Copyright' }),
   },
-  Compose: {},
+  Behavior: {
+    Link: withLinkDeserializer,
+  },
 });
 
 export default {
   Default,
+  Basic,
   AsFlowContainerItem,
   Copyright,
 };

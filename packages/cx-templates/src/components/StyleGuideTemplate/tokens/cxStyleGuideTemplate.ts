@@ -17,8 +17,8 @@ import {
   EditorPlainClean, cxEditorPlain, RichTextClean, cxRichText
 } from '@bodiless/cx-editors';
 import { withNodeKey } from '@bodiless/core';
-import { on } from '@bodiless/fclasses';
-import { cxLayout, LayoutClean } from '@bodiless/cx-layout';
+import { on, withDesign } from '@bodiless/fclasses';
+import { asLayoutToken, cxLayout, LayoutClean } from '@bodiless/cx-layout';
 import { asStyleGuideTemplateToken } from '../StyleGuideTemplateClean';
 
 const Default = asStyleGuideTemplateToken({
@@ -48,15 +48,15 @@ const BordersLabels = asStyleGuideTemplateToken({
 
 const HeaderOnly = asStyleGuideTemplateToken({
   ...Default,
-  Theme: {
-    Wrapper: cxLayout.Header,
+  Components: {
+    Wrapper: on(LayoutClean)(cxLayout.HeaderOnly),
   },
 });
 
 const FooterOnly = asStyleGuideTemplateToken({
   ...Default,
-  Theme: {
-    Wrapper: cxLayout.Footer,
+  Components: {
+    Wrapper: on(LayoutClean)(cxLayout.FooterOnly),
   },
 });
 
@@ -64,5 +64,5 @@ export default {
   Default,
   BordersLabels,
   HeaderOnly,
-  FooterOnly
+  FooterOnly,
 };
