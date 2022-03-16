@@ -120,7 +120,7 @@ const Basic = asCxTokenSpec()({
 const Copyright = asCxTokenSpec()({
   ...Basic,
   Spacing: {
-    paragraph: 'mx-9 py-9 md:mx-0 md:mb-4 md:p-0 lg:mt-2 lg:mb-0 lg:py-0',
+    paragraph: 'mx-9 py-9 md:mx-0 md:mb-4 md:p-0 lg:mb-0 lg:py-0',
   },
   Theme: {
     paragraph: as(
