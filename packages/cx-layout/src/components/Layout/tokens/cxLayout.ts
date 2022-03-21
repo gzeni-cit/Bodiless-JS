@@ -15,12 +15,13 @@ import {
   addProps,
   as,
   Div,
+  on,
   replaceWith,
 } from '@bodiless/fclasses';
 import { cxElement } from '@bodiless/cx-elements';
 import { asLayoutToken } from '../LayoutClean';
-import { cxFooter } from '../../Footer';
-import { cxHeader } from '../../Header';
+import { cxFooter, FooterClean } from '../../Footer';
+import { cxHeader, HeaderClean } from '../../Header';
 import { cxHelmet } from '../../Helmet';
 import { MAIN_CONTENT_ID } from './constants';
 import { WithBordersLabels } from './cxLayoutTest';
@@ -31,8 +32,6 @@ import { WithBordersLabels } from './cxLayoutTest';
 const Base = asLayoutToken({
   Components: {
     Helmet: cxHelmet.Default,
-    Header: replaceWith(Div),
-    Footer: replaceWith(Div),
   },
   Theme: {
   },
@@ -74,13 +73,13 @@ const ConstrainSite = asLayoutToken({
 
 const Header = asLayoutToken({
   Components: {
-    Header: cxHeader.Default,
+    Header: on(HeaderClean)(cxHeader.Default),
   },
 });
 
 const Footer = asLayoutToken({
   Components: {
-    Footer: cxFooter.Default,
+    Footer: on(FooterClean)(cxFooter.Default),
   },
 });
 
