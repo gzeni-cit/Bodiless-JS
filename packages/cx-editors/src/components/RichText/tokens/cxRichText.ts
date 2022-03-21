@@ -23,6 +23,7 @@ import {
   H4,
   H5,
   startWith,
+  removeClasses,
 } from '@bodiless/fclasses';
 import {
   asBlock,
@@ -114,7 +115,7 @@ const Default = asCxTokenSpec()({
 const Basic = asCxTokenSpec()({
   ...Default,
   Core: pick(Default.Core, 'paragraph', 'Bold', 'Underline', 'Link', 'SuperScript'),
-  Theme: pick(Default.Theme, 'Bold', 'Underline', 'SuperScript'),
+  Theme: pick(Default.Theme, 'paragraph', 'Bold', 'Underline', 'Link', 'SuperScript'),
 });
 
 const Copyright = asCxTokenSpec()({
@@ -127,18 +128,17 @@ const Copyright = asCxTokenSpec()({
       cxTextDecoration.Normal,
     ),
     Link: as(
+      cxLink.Default,
       cxColor.TextPrimaryFooterCopy,
       cxColor.TextPrimaryInteractive,
       cxFontSize.XS,
       cxTextDecoration.Bold,
       cxTextDecoration.Underline,
+      removeClasses('text-m-base lg:text-base'),
     ),
   },
   Content: {
     _: addProps({ placeholder: 'Insert Copyright' }),
-  },
-  Behavior: {
-    Link: withLinkDeserializer,
   },
 });
 
