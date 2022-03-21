@@ -16,7 +16,7 @@ import { withNode, withNodeKey } from '@bodiless/core';
 import { cxRichText } from '@bodiless/cx-editors';
 import { cxColor } from '@bodiless/cx-elements';
 import { cxMenu } from '@bodiless/cx-navigation';
-import { as, flowHoc } from '@bodiless/fclasses';
+import { as } from '@bodiless/fclasses';
 import { cxRewards } from '../Rewards';
 import { cxSocialLinks } from '../SocialLinks';
 import { asFooterToken } from '../FooterClean';
@@ -43,12 +43,14 @@ const Base = asFooterToken({
     RewardsWrapper: 'p-9 md:mb-0 md:p-0',
     FooterMenuWrapper: 'p-9 md:p-0',
     SocialLinksWrapper: 'px-10 py-5 md:p-0',
+    Copyright: 'mx-9 py-9 md:mx-0 md:mb-4 md:p-0 lg:mt-2 lg:mb-0 lg:py-0',
   },
   Theme: {
     Column: as(
       cxColor.BgSecondaryFooter,
       'first:bg-cx-primary-card-bg md:first:bg-cx-secondary-footer-bg',
     ),
+    Copyright: 'border-white-400 border-t border-b md:border-0',
   },
   Editors: {
     Copyright: cxRichText.Copyright,

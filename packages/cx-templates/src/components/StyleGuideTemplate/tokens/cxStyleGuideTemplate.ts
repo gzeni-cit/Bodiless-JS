@@ -17,8 +17,8 @@ import {
   EditorPlainClean, cxEditorPlain, RichTextClean, cxRichText
 } from '@bodiless/cx-editors';
 import { withNodeKey } from '@bodiless/core';
-import { on, withDesign } from '@bodiless/fclasses';
-import { asLayoutToken, cxLayout, LayoutClean } from '@bodiless/cx-layout';
+import { on } from '@bodiless/fclasses';
+import { cxLayout, LayoutClean } from '@bodiless/cx-layout';
 import { asStyleGuideTemplateToken } from '../StyleGuideTemplateClean';
 
 const Default = asStyleGuideTemplateToken({
