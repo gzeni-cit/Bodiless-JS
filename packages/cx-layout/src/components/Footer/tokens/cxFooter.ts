@@ -38,12 +38,12 @@ const Base = asFooterToken({
   },
   Spacing: {
     Wrapper: 'mt-10',
-    Column: 'md:px-10 md:py-6 lg:p-8',
+    Column: 'md:py-6 lg:py-0',
     Row: 'md:mb-8 md:last:mb-0 lg:mb-12',
-    RewardsWrapper: 'p-9 md:mb-0 md:p-0',
-    FooterMenuWrapper: 'p-9 md:p-0',
-    Copyright: 'mx-9 py-9 md:mx-0 md:mb-4 md:p-0 lg:mb-0 lg:py-0',
-    SocialLinksWrapper: 'px-10 py-5 md:p-0',
+    RewardsWrapper: 'p-9 md:mb-0 md:p-0 lg:pl-36 lg:pr-20 lg:py-16',
+    FooterMenuWrapper: 'pb-9 md:p-0 lg:pl-28 lg:py-16',
+    Copyright: 'mx-9 py-6 md:mx-0 md:mb-4 md:py-6 lg:py-0 lg:pl-28 lg:mt-9 lg:last:mb-10',
+    SocialLinksWrapper: 'px-10 py-5 md:p-0 lg:mt-9',
   },
   Theme: {
     Column: as(

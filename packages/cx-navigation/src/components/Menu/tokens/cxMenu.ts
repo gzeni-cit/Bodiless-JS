@@ -5,7 +5,7 @@ import {
   withMenuDesign,
   withListSubMenu,
 } from '@bodiless/navigation';
-import { cxColor, cxTextDecoration } from '@bodiless/cx-elements';
+import { cxColor, cxFontSize, cxTextDecoration } from '@bodiless/cx-elements';
 import { asMenuToken } from '../MenuClean';
 import { cxMenuTitle, MenuTitleClean } from '../../MenuTitle';
 import { cxSubMenu } from '../../SubMenu';
@@ -51,6 +51,7 @@ const Footer = asMenuToken(Base, {
   },
   Spacing: {
     Wrapper: 'lg:mb-12',
+    Title: 'lg:mb-4',
   },
   Theme: {
     // @todo this 'as' is needed only because of a bug and should be removed when it is fixed.
@@ -59,8 +60,7 @@ const Footer = asMenuToken(Base, {
     Title: as(
       cxColor.TextPrimaryFooterCopy,
       cxTextDecoration.Bold,
-      // @todo should we use tokens here?
-      'text-m-xl md:text-m-lg lg:text-base',
+      cxFontSize.XL,
     ),
   },
 });
