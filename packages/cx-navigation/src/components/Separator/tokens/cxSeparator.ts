@@ -33,9 +33,9 @@ const FooterMenu = asElementToken({
   },
   Spacing: {
     _: as(
-      'first:pt-8 mb-7 pb-8 last:mb-0 last:pb-0',
+      'mb-7 pb-8 last:mb-0 last:pb-0',
       'md:mb-0 md:pb-0 md:px-10 md:first:pl-0 md:last:pr-0',
-      'lg:first:pt-0 lg:px-12',
+      'lg:px-12',
     ),
   },
 });
