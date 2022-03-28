@@ -19,12 +19,11 @@ module.exports = {
       48: '12rem',
       56: '14rem',
     },
-    extend: {
-      margin: {
-        'site-percent': '5%',
-        'md-site-percent': '8%',
-        'lg-site-percent': '8%',
-      },
-    },
+  },
+  variants: {
+    backgroundColor: ['first', 'last', 'responsive'],
+    margin: ['first', 'last', 'responsive'],
+    padding: ['first', 'last', 'responsive'],
+    width: ['first', 'last', 'responsive'],
   },
 };
