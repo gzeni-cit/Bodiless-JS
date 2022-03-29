@@ -12,16 +12,19 @@
  * limitations under the License.
  */
 
-import useHasSubMenu from './useHasSubMenu';
-import useIsFirstMenuItem from './useIsFirstMenuItem';
-import withMenuTitleAnalytics, { withAnalyticsAttr } from './withMenuAnalytics';
-import withMenuItemExpanded, { withExpandedAttr } from './withMenuExpanded';
+import React from 'react';
+import { HOC, withDesign } from '@bodiless/fclasses';
 
-export {
-  useHasSubMenu,
-  useIsFirstMenuItem,
-  withMenuTitleAnalytics,
-  withAnalyticsAttr,
-  withMenuItemExpanded,
-  withExpandedAttr,
-};
+/**
+ * withExpandedAttr adds expanded prop to a component.
+ */
+const withExpandedAttr: HOC = Component => props => (
+  <Component expanded="true" {...props} />
+);
+
+const withMenuItemExpanded = withDesign({
+  Item: withExpandedAttr,
+});
+
+export default withMenuItemExpanded;
+export { withExpandedAttr };

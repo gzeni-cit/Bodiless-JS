@@ -15,20 +15,43 @@
 import {
   addProps,
   as,
+  flowHoc,
   flowIf,
   on,
 } from '@bodiless/fclasses';
 import {
+  asBurgerMenu,
   useIsActiveTrail,
   withMenuDesign,
   withListSubMenu,
 } from '@bodiless/navigation';
 import { withNodeKey } from '@bodiless/core';
 import { cxColor, cxFontSize, cxTextDecoration } from '@bodiless/cx-elements';
+import {
+  useHasSubMenu,
+  useIsFirstMenuItem,
+  withExpandedAttr,
+  withMenuTitleAnalytics,
+} from '../../../util';
 import { asMenuToken } from '../MenuClean';
 import { cxMenuTitle, MenuTitleClean } from '../../MenuTitle';
 import { cxSubMenu } from '../../SubMenu';
 import { cxSeparator } from '../../Separator';
+
+/**
+ * @private
+ *
+ * asTitleLinkDisabledWithSubmenus applies default menu title with link, but
+ * it removes the link if the menu has a submenu.
+ */
+const asTitleLinkDisabledWithSubmenus = as(
+  // Default.
+  on(MenuTitleClean)(cxMenuTitle.Default),
+  // Replaces title with disabled link is useHasSubMenu is true.
+  flowIf(() => useHasSubMenu('List', 'cham-sublist'))(
+    on(MenuTitleClean)(cxMenuTitle.WithTitleLinkDisabled),
+  ),
+);
 
 /**
  * Token which produces the Base CanvasX Menu. Can be customized and
@@ -37,10 +60,9 @@ import { cxSeparator } from '../../Separator';
  * This basic menu does not contain submenus.
  */
 const Base = asMenuToken({
-  // @TODO: Do we need this?
-  // Analytics: {
-  //   _: withMenuTitleAnalytics,
-  // }
+  Analytics: {
+    _: withMenuTitleAnalytics,
+  },
   // @TODO: Why A11y domain is not working properly?
   A11y: {
     Nav: addProps({ role: 'navigation' }),
@@ -131,8 +153,8 @@ const Footer = asMenuToken({
 const TopNav = asMenuToken({
   ...Default,
   Components: {
-    ...Default.Components,
     _: withMenuDesign('List')(as(cxSubMenu.TopNav)),
+    Title: asTitleLinkDisabledWithSubmenus,
   },
   Layout: {
     Wrapper: 'flex',
@@ -163,9 +185,13 @@ const TopNav = asMenuToken({
  */
 const Burger = asMenuToken({
   ...Default,
+  // Turns burger menus into accordions.
+  Core: {
+    _: flowHoc(withListSubMenu(), asBurgerMenu('List')),
+  },
   Components: {
-    ...Default.Components,
     _: withMenuDesign('List')(as(cxSubMenu.Burger)),
+    Title: asTitleLinkDisabledWithSubmenus,
   },
   Layout: {
     Wrapper: 'flex flex-col',
@@ -180,6 +206,9 @@ const Burger = asMenuToken({
       cxTextDecoration.Bold,
       cxTextDecoration.Uppercase,
     ),
+  },
+  Behavior: {
+    Item: flowIf(useIsFirstMenuItem)(withExpandedAttr),
   },
   Schema: {
     ...TopNav.Schema,
