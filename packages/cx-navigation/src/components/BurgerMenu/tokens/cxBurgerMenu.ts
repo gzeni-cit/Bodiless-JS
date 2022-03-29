@@ -51,8 +51,9 @@ const Base = asBurgerMenuToken({
   },
   Layout: {
     Wrapper: 'w-full h-full fixed left-0 top-0 md:w-7/12 lg:hidden',
-    Container: 'flex flex-col',
-    FooterWrapper: 'w-full fixed left-0 bottom-0 flex flex-col items-center md:w-7/12',
+    Container: 'flex flex-col h-screen',
+    MenuWrapper: 'flex-grow overflow-auto',
+    FooterWrapper: 'w-full flex flex-col items-center',
     ActionFooterContainer: 'w-full flex justify-center items-center',
     Overlay: 'w-full h-full fixed left-0 top-0',
   },
@@ -72,7 +73,7 @@ const Base = asBurgerMenuToken({
       // @TODO: Create tokens for borders?
       'border-t-2 border-cx-primary-page-bg',
     ),
-    Overlay: 'z-5 bg-gray-112-10 backdrop-blur-m-md backdrop-brightness-80',
+    Overlay: 'z-5 bg-gray-112-10 backdrop-filter backdrop-blur-m-md backdrop-brightness-80',
   },
   Behavior: {
     // Needs to hide it when menu is closed, otherwise it will not allow page interaction.

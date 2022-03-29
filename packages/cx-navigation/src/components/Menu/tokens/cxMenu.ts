@@ -25,10 +25,26 @@ import {
 } from '@bodiless/navigation';
 import { withNodeKey } from '@bodiless/core';
 import { cxColor, cxFontSize, cxTextDecoration } from '@bodiless/cx-elements';
+import useHasSubMenu from '../../../util/useHasSubMenu';
 import { asMenuToken } from '../MenuClean';
 import { cxMenuTitle, MenuTitleClean } from '../../MenuTitle';
 import { cxSubMenu } from '../../SubMenu';
 import { cxSeparator } from '../../Separator';
+
+/**
+ * @private
+ *
+ * asTitleLinkDisabledWithSubmenus applies default menu title with link, but
+ * it removes the link if the menu has a submenu.
+ */
+const asTitleLinkDisabledWithSubmenus = as(
+  // Default.
+  on(MenuTitleClean)(cxMenuTitle.Default),
+  // Replaces title with disabled link is useHasSubMenu is true.
+  flowIf(() => useHasSubMenu('List', 'cham-sublist'))(
+    on(MenuTitleClean)(cxMenuTitle.WithTitleLinkDisabled),
+  ),
+);
 
 /**
  * Token which produces the Base CanvasX Menu. Can be customized and
@@ -131,8 +147,8 @@ const Footer = asMenuToken({
 const TopNav = asMenuToken({
   ...Default,
   Components: {
-    ...Default.Components,
     _: withMenuDesign('List')(as(cxSubMenu.TopNav)),
+    Title: asTitleLinkDisabledWithSubmenus,
   },
   Layout: {
     Wrapper: 'flex',
@@ -164,8 +180,8 @@ const TopNav = asMenuToken({
 const Burger = asMenuToken({
   ...Default,
   Components: {
-    ...Default.Components,
     _: withMenuDesign('List')(as(cxSubMenu.Burger)),
+    Title: asTitleLinkDisabledWithSubmenus,
   },
   Layout: {
     Wrapper: 'flex flex-col',
