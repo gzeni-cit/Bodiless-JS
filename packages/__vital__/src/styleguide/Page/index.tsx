@@ -19,6 +19,7 @@ import {
 import { __vital__StyleGuideTemplate } from './StyleGuideTemplate';
 
 const {
+  ContentListing,
   Editors,
   EditorsMonoFont,
   Typography,
@@ -36,6 +37,7 @@ const Default = asFluidToken({
   ...vitalPage.Default,
   Components: {
     _default,
+    ContentListing,
     Editors,
     EditorsMonoFont,
     Typography,
